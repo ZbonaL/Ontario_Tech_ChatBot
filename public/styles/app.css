@@ -1,4 +1,4 @@
-#chatbox_bttn {
+.chatbox_bttn {
   position: relative;
   bottom: -33em;
   right: -18rem;
@@ -10,18 +10,18 @@
   filter: drop-shadow(0 0 2rem black);
 }
 
-#chatbox_bttn img {
+.chatbox_bttn img {
   position: relative;
   margin: auto;
   padding: 0.5em;
 }
 
-#background_img{
+.background_img{
   position: fixed;
   z-index: -2;
 }
 
-#container{
+.container{
   display: none;
   flex-direction: column;
   border: 1px grey solid;
@@ -35,7 +35,7 @@
   right: 2rem;
 }
 
-#chat_header{
+.chat_header{
   border: black 1px solid;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -43,7 +43,7 @@
   height: 60px;
 }
 
-#chat_header_p{
+.chat_header_p{
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px; 
   color: aliceblue;
@@ -52,12 +52,12 @@
   left: 10%;
 }
 
-#chat_header_img{
+.chat_header_img{
   width: 3rem;
   float: left;
 }
 
-#user_input{
+.user_input{
   font-family: 'Ubuntu', sans-serif;  
 
   width: 19.75rem;
@@ -69,7 +69,7 @@
   font-size: 16px;
 }
 
-#messages{
+.messages{
   font-family: 'Ubuntu', sans-serif;  
   font-size: 20px;
   background: grey;
