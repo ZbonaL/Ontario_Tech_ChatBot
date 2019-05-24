@@ -1,0 +1,59 @@
+#chatbox_bttn {
+  position: relative;
+  bottom: -33em;
+  right: -18rem;
+  border: grey 1px solid;
+  border-radius: 60%;
+  float: right;
+  background-color: white;
+  transform: scale(0.09 );
+  filter: drop-shadow(0 0 2rem black);
+}
+
+#chatbox_bttn img {
+  position: relative;
+  margin: auto;
+  padding: 0.5em;
+}
+
+#background_img{
+  position: fixed;
+  z-index: -2;
+}
+
+#container{
+  display: none;
+  flex-direction: column;
+  border: 1px grey solid;
+  border-radius: 1rem;
+  width: 20rem;
+  background-color: white;
+
+  position: fixed;
+  bottom: 10em;
+  right: 10rem;
+}
+
+#chat_header{
+  border: black 1px solid;
+  background-color: #0077CA;
+  transform: scale(0.5)
+}
+
+#chat_header_p{
+  font-size: 1rem; 
+  color: aliceblue;
+  text-align: center;
+}
+
+
+#chat_header_img{
+  width: 3rem;
+  float: left;
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+#input{
+  width: 19.5rem;
+}

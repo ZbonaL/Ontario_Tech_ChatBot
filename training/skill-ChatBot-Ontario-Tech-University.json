@@ -1,0 +1,7264 @@
+{
+  "name": "ChatBot Ontario Tech University",
+  "intents": [
+    {
+      "intent": "future_student",
+      "examples": [
+        {
+          "text": "Where can I find undergrad tuition information"
+        },
+        {
+          "text": "contact information"
+        },
+        {
+          "text": "contact info"
+        },
+        {
+          "text": "where can I find contact informations"
+        },
+        {
+          "text": "Link for doctoral program"
+        },
+        {
+          "text": "Link for masters program"
+        },
+        {
+          "text": "Link for the viewbook"
+        },
+        {
+          "text": "Where can I find the viewbook"
+        },
+        {
+          "text": "tuition for graduate students"
+        },
+        {
+          "text": "tuition for undergraduate students"
+        },
+        {
+          "text": "Where can I find information about tuition"
+        },
+        {
+          "text": "Links for International students"
+        },
+        {
+          "text": "Links for graduate studies requirements"
+        },
+        {
+          "text": "Doctoral program"
+        },
+        {
+          "text": "Masters program"
+        },
+        {
+          "text": "where can I find application requirements for graduate studies"
+        },
+        {
+          "text": "where can I find information on admissions"
+        },
+        {
+          "text": "programs offered"
+        },
+        {
+          "text": "Link to list of programs offered"
+        },
+        {
+          "text": "Where can I find information in all the programs offred?"
+        },
+        {
+          "text": "Future Student"
+        },
+        {
+          "text": "Where can I find a list of faculties"
+        },
+        {
+          "text": "Where can I find information on graduate student research"
+        },
+        {
+          "text": "Looking for information on undergraduate admissions"
+        },
+        {
+          "text": "Do you have information on the doctorate programs?"
+        },
+        {
+          "text": "Where can I find information about the phd programs"
+        },
+        {
+          "text": "Financial Aid"
+        },
+        {
+          "text": "Does Ontario Tech offer graduate reasearch positions?"
+        },
+        {
+          "text": "Co-op"
+        },
+        {
+          "text": "graduate international application"
+        },
+        {
+          "text": "undergraduate International application"
+        },
+        {
+          "text": "college-to-university"
+        },
+        {
+          "text": "Where can I find college-to-university"
+        },
+        {
+          "text": "graduate research"
+        },
+        {
+          "text": "Student Awards and Financial Aid"
+        },
+        {
+          "text": "transfer credits"
+        },
+        {
+          "text": "Where can I find graduate tuition information"
+        },
+        {
+          "text": "Where can I find information about transfer credits"
+        },
+        {
+          "text": "Information on Co-op and Internships"
+        },
+        {
+          "text": "Where can I find Information on Co-op and Internships"
+        },
+        {
+          "text": "Graduate student research"
+        },
+        {
+          "text": "Tours and events"
+        },
+        {
+          "text": "Where can I find information on tours and events"
+        },
+        {
+          "text": "Admissions"
+        },
+        {
+          "text": "Info for International students"
+        },
+        {
+          "text": "International students"
+        }
+      ],
+      "description": "Questions related to future students"
+    },
+    {
+      "intent": "Faculty_Staff",
+      "examples": [
+        {
+          "text": "Where can I find information on Digital media services"
+        },
+        {
+          "text": "Where can I find information in editorial services"
+        },
+        {
+          "text": "Where can I find information on event information"
+        },
+        {
+          "text": "Where can I find information on Faculty Experts"
+        },
+        {
+          "text": "Where can I find information on Graphics Design"
+        },
+        {
+          "text": "Where can I find information on marketing materials"
+        },
+        {
+          "text": "Where can I find information on media relations"
+        },
+        {
+          "text": "Where can I find information on production services"
+        },
+        {
+          "text": "Where can I find information on project management"
+        },
+        {
+          "text": "Is there any information on  Stationery and promotional items"
+        },
+        {
+          "text": "Are there any social media services that the University offeres"
+        },
+        {
+          "text": "Does the university offer web development services"
+        },
+        {
+          "text": "Faculty and Staff"
+        },
+        {
+          "text": "Does the University offer a healthy workspace"
+        },
+        {
+          "text": "Where can I find information about a healthy work place"
+        },
+        {
+          "text": "Is there any information on a Healthy Workplace"
+        },
+        {
+          "text": "Is there a link for leader support"
+        },
+        {
+          "text": "Where can I find information on Leader support"
+        },
+        {
+          "text": "Is there information on learning and development"
+        },
+        {
+          "text": "Where can I find information on learning and development"
+        },
+        {
+          "text": "Where can i find information on Pension and benifits"
+        },
+        {
+          "text": "Is there any information on Working at the University"
+        },
+        {
+          "text": "Is there a way to connect with Human Resources"
+        },
+        {
+          "text": "Where can I find information on IT services"
+        },
+        {
+          "text": "Where can I find information on TELE Models"
+        },
+        {
+          "text": "Where can I find information on BYOD models"
+        },
+        {
+          "text": "Where can I get It resources"
+        },
+        {
+          "text": "Are ther any IT resources"
+        },
+        {
+          "text": "Where can I find a list of FAQs for IT"
+        },
+        {
+          "text": "Where can I contact IT"
+        },
+        {
+          "text": "Is there information on Facilities"
+        },
+        {
+          "text": "is there any information on Food Services"
+        },
+        {
+          "text": "Is there information on Housekeeping services"
+        },
+        {
+          "text": "Contact Information"
+        },
+        {
+          "text": "Is there information on Finance Departments"
+        },
+        {
+          "text": "Is ther information on Financial information"
+        },
+        {
+          "text": "Where can I find Finance contact information"
+        },
+        {
+          "text": "Where can I find information on Chart of Accountants"
+        }
+      ],
+      "description": "Handle Questions related to Faculty and Staff"
+    },
+    {
+      "intent": "Partners",
+      "examples": [
+        {
+          "text": "is there any information about partnerships"
+        },
+        {
+          "text": "Does the university have resources and services for partnerships"
+        },
+        {
+          "text": "Reasources and Services"
+        },
+        {
+          "text": "About"
+        },
+        {
+          "text": "Partner"
+        },
+        {
+          "text": "Where can I contact the University about partnerships"
+        },
+        {
+          "text": "Where can I find partnership FAQs"
+        },
+        {
+          "text": "Where can I find information about partnership resources and services"
+        },
+        {
+          "text": "Where can I find information about partnerships"
+        },
+        {
+          "text": "contact"
+        }
+      ],
+      "description": "handles questions related to Partnerships"
+    },
+    {
+      "intent": "current_student",
+      "examples": [
+        {
+          "text": "Where can I Find the academic calendar"
+        },
+        {
+          "text": "Where can I find links for academic advising"
+        },
+        {
+          "text": "Graduate Academic Calendar"
+        },
+        {
+          "text": "Academic Calendar"
+        },
+        {
+          "text": "Academic Advising"
+        },
+        {
+          "text": "Link for MyCampus"
+        },
+        {
+          "text": "Where can I find information on Convocation"
+        },
+        {
+          "text": "Where can I find information on the Three Minute Thesis"
+        },
+        {
+          "text": "Where can I find information on the thesis"
+        },
+        {
+          "text": "Where can I find information on the PhD Candidacy Exam"
+        },
+        {
+          "text": "Where is the Graduate Academic Calendar"
+        },
+        {
+          "text": "Graduate Finances"
+        },
+        {
+          "text": "Current Student"
+        },
+        {
+          "text": "Convocation"
+        },
+        {
+          "text": "Do undergrad have Important dates and deadlines"
+        },
+        {
+          "text": "Does the university do a 3 minute thesis"
+        },
+        {
+          "text": "Links for information on the phd candidacy exam"
+        },
+        {
+          "text": "Links for academic integrity"
+        },
+        {
+          "text": "Graduate Important Dates"
+        },
+        {
+          "text": "Link for information on thesis"
+        },
+        {
+          "text": "Important Dates and Deadlines"
+        },
+        {
+          "text": "What are the Important dates for Graduate Students"
+        },
+        {
+          "text": "Where can I find Academic Integrity link"
+        },
+        {
+          "text": "Where can I find Studnet Awards and Financial Aid"
+        },
+        {
+          "text": "Where is the MyCampus portal link"
+        },
+        {
+          "text": "Where can I find the Office of the Registrar"
+        },
+        {
+          "text": "What are the Universities Policies and Procedures"
+        },
+        {
+          "text": "What are the Important Dates and Deadlines"
+        },
+        {
+          "text": "Where can I find information for new Graduate students"
+        }
+      ],
+      "description": "Questions for the current students"
+    },
+    {
+      "intent": "giving_donating",
+      "examples": [
+        {
+          "text": "is there a link for giving and donating"
+        },
+        {
+          "text": "is there a link for donations to uoit"
+        },
+        {
+          "text": "Where can I give to UOIT"
+        },
+        {
+          "text": "Where can I find information on donating"
+        },
+        {
+          "text": "is there a place where I can donate to uoit"
+        },
+        {
+          "text": "Where can I find information on giving"
+        },
+        {
+          "text": "Where can I donate to UOIT"
+        },
+        {
+          "text": "does UOIT accept donations"
+        }
+      ],
+      "description": "Handle questions for giving and donating"
+    },
+    {
+      "intent": "research",
+      "examples": [
+        {
+          "text": "is there informatio on Intellectual properties for research"
+        },
+        {
+          "text": "Where can I find a link for the IRIS research portal"
+        },
+        {
+          "text": "Is there a research FAQ"
+        },
+        {
+          "text": "Where can I find the reserach FAQ"
+        },
+        {
+          "text": "Does the University have public accountablity for research"
+        },
+        {
+          "text": "public accountability for research"
+        },
+        {
+          "text": "Where can I find information on research events"
+        },
+        {
+          "text": "Is there a research expert center"
+        },
+        {
+          "text": "What are the research policies, procedures, and forms for research"
+        },
+        {
+          "text": "Are there policies, procedures, and form for research"
+        },
+        {
+          "text": "Does UOIT have ethics, safety, and research conduct"
+        },
+        {
+          "text": "Where can I find infromation on research governance at UOIT"
+        },
+        {
+          "text": "Where can I find information on research responsibility and accountablility"
+        },
+        {
+          "text": "Is there a link for the IRIS research portal"
+        },
+        {
+          "text": "Where can I find more information on research responsibility and accountability"
+        },
+        {
+          "text": "Where can I find information on funding opportunities"
+        },
+        {
+          "text": "where can i find more information on Funding Opportunities"
+        },
+        {
+          "text": "Is there any information on Funding Opportunities"
+        },
+        {
+          "text": "Where can i find information on undergraduate research awards"
+        },
+        {
+          "text": "Does uoit offer undergraduate research awards"
+        },
+        {
+          "text": "Are there opportunities for undergrads to do research"
+        },
+        {
+          "text": "Where can I find information on graduate research"
+        },
+        {
+          "text": "Is there a student research showcase"
+        },
+        {
+          "text": "Where can i find more information about the IRIS research portal"
+        },
+        {
+          "text": "UOIT research at a glance"
+        },
+        {
+          "text": "UOIT's research infrastructure"
+        },
+        {
+          "text": "UOIT's research chairs"
+        },
+        {
+          "text": "What type of infrastructure does UOIT support for research"
+        },
+        {
+          "text": "does UOIT have research chairs"
+        },
+        {
+          "text": "Where can I find the list of research chairs"
+        },
+        {
+          "text": "Does the university have a research program"
+        },
+        {
+          "text": "where can i find information about research for faculty"
+        },
+        {
+          "text": "Where can I find information on the research faculty"
+        },
+        {
+          "text": "Where can I find information about UOIT's research partner"
+        },
+        {
+          "text": "Where can I find information about research at UOIT"
+        },
+        {
+          "text": "Expert Center"
+        },
+        {
+          "text": "Is there an Experts center for research"
+        },
+        {
+          "text": "is ther information on research experts at UOIT"
+        },
+        {
+          "text": "Where Can I find information on Research Experts"
+        },
+        {
+          "text": "Where can I find information on Entrepreneurship"
+        },
+        {
+          "text": "Contacts for research"
+        },
+        {
+          "text": "Where can I find contact information for research"
+        },
+        {
+          "text": "Where can I find more information on UOIT's ethics, safety, and research conduct"
+        },
+        {
+          "text": "Are there research policies, procedures and forms"
+        },
+        {
+          "text": "Where can I find more information on UOIT's research policies, procedures, and forms"
+        },
+        {
+          "text": "Where can I find information on Grant development and management for research"
+        },
+        {
+          "text": "is there information on research grant development and management"
+        },
+        {
+          "text": "Intellectual properties for research"
+        }
+      ],
+      "description": "Handle questions related to research"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "research",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Research for Students",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "IRIS Research",
+          "synonyms": [
+            "IRIS resarch portal",
+            "Iris portal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Research for Faculty",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Research contact",
+          "synonyms": [
+            "research contact info",
+            "research contact information"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Discover Research",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Partners",
+          "synonyms": [
+            "Research Partners",
+            "Research partner"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Undergraduate Research",
+          "synonyms": [
+            "Undergrad research",
+            "Undergraduate research award",
+            "Undergrad research award"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Graduate research",
+          "synonyms": [
+            "Grad research"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "current_grad",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Forms and Publications",
+          "synonyms": [
+            "Grad Forms",
+            "Grad Publications"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Phd Candidacy Exam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Graduate important dates",
+          "synonyms": [
+            "grad important dates"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Convocation",
+          "synonyms": [
+            "graduation",
+            "commencement",
+            "convocations"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Three minute thesis",
+          "synonyms": [
+            "3MT",
+            "3 Minute Thesis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Graduate Student Finances",
+          "synonyms": [
+            "Grad finances",
+            "Graduate finances"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "New Graduate Students",
+          "synonyms": [
+            "New grad",
+            "New Grad student"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Graduate Academic Calendar",
+          "synonyms": [
+            "Grad Academic Calendar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Thesis",
+          "synonyms": [
+            "dissertation"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "IT_Services",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Getting Help",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tele Model",
+          "synonyms": [
+            "BYOD",
+            "Byod model"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Services",
+          "synonyms": [
+            "service",
+            "It service",
+            "It services"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Contact IT",
+          "synonyms": [
+            "It contact"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FAQ",
+          "synonyms": [
+            "faqs",
+            "Faq's"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Resources",
+          "synonyms": [
+            "resource",
+            "IT resources",
+            "It resource"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "partners_tab",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Resources and Services",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "partnership",
+          "synonyms": [
+            "partnerships",
+            "partner",
+            "partners"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "contact info",
+          "synonyms": [
+            "contact",
+            "contact information"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FAQs",
+          "synonyms": [
+            "FAQ",
+            "FAQ's"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "About",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Jump-to-nodes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Welcome",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grand Parent",
+          "synonyms": [
+            "Grandparent"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Parent",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "HR_Tabs",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Working at the University",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "My HR connection",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pension and Benifits",
+          "synonyms": [
+            "Pension",
+            "Benifits"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Learning and Development",
+          "synonyms": [
+            "Learning",
+            "Development"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Healthy Workplace",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Leader Support",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "Finance_Tabs",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Finance Contact",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Finance Departmants",
+          "synonyms": [
+            "Finance Departmant",
+            "Finance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Financial Statements",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chart of Accountants",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Facilities_Ancillary",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Facilities",
+          "synonyms": [
+            "amenities"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Food Services",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Housekeeping services",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "discover_research",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Expert Center",
+          "synonyms": [
+            "Experts",
+            "Research Experts"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Research FAQ",
+          "synonyms": [
+            "Research FAQs",
+            "Research FAQ's"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Events",
+          "synonyms": [
+            "Research events"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Research Chairs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Public Accountability",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Research Infrastructure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Research at a Glance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Welcome Message",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Discover Research",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Research Contact",
+          "synonyms": [
+            "Research Contacts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "communications_marketing",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Project Management",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Media relations",
+          "synonyms": [
+            "public relations",
+            "media inquiries",
+            "media contacts",
+            "media enquiries",
+            "communications media"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Graphic Design",
+          "synonyms": [
+            "graphic",
+            "design",
+            "graphic designers",
+            "graphic arts"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Faculty Experts",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stationery and promotional items",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Events",
+          "synonyms": [
+            "event",
+            "activities",
+            "meetings",
+            "demonstrations",
+            "occasions",
+            "meeting",
+            "conferences",
+            "gatherings",
+            "occasion",
+            "workshops",
+            "conference"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Editorial",
+          "synonyms": [
+            "editors",
+            "editorials",
+            "publishing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Digital Media",
+          "synonyms": [
+            "media",
+            "digital content",
+            "multimedia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Production Services",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Materials",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Web Development",
+          "synonyms": [
+            "web design"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Social Media",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Alumni",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alumni",
+          "synonyms": [
+            "alumnae",
+            "alumnus",
+            "graduates",
+            "former",
+            "alumn",
+            "grads"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "graduate_tabs",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "research",
+          "synonyms": [
+            "graduate research"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Contact information",
+          "synonyms": [
+            "Contact",
+            "contact info"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Graduate studies",
+          "synonyms": [
+            "graduate programs",
+            "graduate",
+            "grad",
+            "grad studies"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tuition and Fees",
+          "synonyms": [
+            "Tuition",
+            "Fees"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "International Applicants",
+          "synonyms": [
+            "International Graduate",
+            "International Grad"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Masters",
+          "synonyms": [
+            "master"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Doctoral",
+          "synonyms": [
+            "phd",
+            "doctorate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "student awards and funding",
+          "synonyms": [
+            "graduate research",
+            "graduate funding",
+            "graduate awards"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "giving_donating",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Donate",
+          "synonyms": [
+            "Donating",
+            "donation",
+            "gift",
+            "fundraise"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Give",
+          "synonyms": [
+            "giving",
+            "make"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "student_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Graduate",
+          "synonyms": [
+            "doctorate",
+            "phd",
+            "doctoral",
+            "masters",
+            "grad",
+            "grad student"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Undergraduate",
+          "synonyms": [
+            "undergrad",
+            "bachelor",
+            "undergraduates",
+            "undergrads",
+            "bachelors"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "user_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Faculty and staff",
+          "synonyms": [
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Giver",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alumni",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Partner",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "research_partners",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Research partners",
+          "synonyms": [
+            "research partner"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Collaborative research funding",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Collaborate with UOIT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Partnered research impact",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Indsutry Solution for license",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Current partnerships",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Faculty_staff_tabs",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Commuincations and Marketing",
+          "synonyms": [
+            "Communications",
+            "Marketing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Facilities and Ancillary",
+          "synonyms": [
+            "Facilities",
+            "Ancillary"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Human Resources",
+          "synonyms": [
+            "HR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "It Services",
+          "synonyms": [
+            "It Support"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Finance",
+          "synonyms": [
+            "financing",
+            "accounting"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "current_undergrad",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Academic Advising",
+          "synonyms": [
+            "Advising",
+            "advisor",
+            "counsellor",
+            "councillor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Academic Calendar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Records and scheduling",
+          "synonyms": [
+            "Records",
+            "Scheduling"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Policies and Procedures",
+          "synonyms": [
+            "Undergrad Policies",
+            "Undergrad Procedures"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Office of the Registrar",
+          "synonyms": [
+            "Registrars office"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MyCampus Portal",
+          "synonyms": [
+            "mycampus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Important Dates and deadlines",
+          "synonyms": [
+            "Important Dates",
+            "Important Deadlines"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Academic Integrity",
+          "synonyms": [
+            "student conduct"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tabs",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Viewbook",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Faculties",
+          "synonyms": [
+            "disciplines"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Student Awards and Financial Aids",
+          "synonyms": [
+            "Student awards",
+            "student Financial Aid"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Admissions",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "International",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tours and Events",
+          "synonyms": [
+            "Tours",
+            "Events"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Undergrad programs",
+          "synonyms": [
+            "Undergraduate programs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Contact Infromation",
+          "synonyms": [
+            "Contact info",
+            "contact"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Finance",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What type of information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Finance Department",
+                "value": {
+                  "input": {
+                    "text": "Finance Department"
+                  }
+                }
+              },
+              {
+                "label": "Financial Statements",
+                "value": {
+                  "input": {
+                    "text": "Financial Statements"
+                  }
+                }
+              },
+              {
+                "label": "Chart of Accountants",
+                "value": {
+                  "input": {
+                    "text": "Chart of Accountants"
+                  }
+                }
+              },
+              {
+                "label": "Contact information",
+                "value": {
+                  "input": {
+                    "text": "Contact Information"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_21_1557859731181",
+      "metadata": {},
+      "conditions": "@Faculty_staff_tabs:Finance",
+      "dialog_node": "node_5_1557929166336",
+      "previous_sibling": "node_4_1557929143404"
+    },
+    {
+      "type": "standard",
+      "title": "It Services",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What type of information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Services",
+                "value": {
+                  "input": {
+                    "text": "Services"
+                  }
+                }
+              },
+              {
+                "label": "Tele Models",
+                "value": {
+                  "input": {
+                    "text": "Tele Models"
+                  }
+                }
+              },
+              {
+                "label": "FAQ's",
+                "value": {
+                  "input": {
+                    "text": "FAQ's"
+                  }
+                }
+              },
+              {
+                "label": "Contact IT",
+                "value": {
+                  "input": {
+                    "text": "Contact IT"
+                  }
+                }
+              },
+              {
+                "label": "Getting Help",
+                "value": {
+                  "input": {
+                    "text": "Getting Help"
+                  }
+                }
+              },
+              {
+                "label": "Resources",
+                "value": {
+                  "input": {
+                    "text": "IT Resources"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_21_1557859731181",
+      "metadata": {},
+      "conditions": "@Faculty_staff_tabs:(It Services)",
+      "dialog_node": "node_3_1557929126789",
+      "previous_sibling": "node_2_1557929111278"
+    },
+    {
+      "type": "standard",
+      "title": "Other",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1557859731181",
+      "metadata": {},
+      "dialog_node": "node_6_1557929195983",
+      "previous_sibling": "node_5_1557929166336"
+    },
+    {
+      "type": "standard",
+      "title": "Facilities and Ancillary",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Facilities and Ancillary information:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Facilities",
+                "value": {
+                  "input": {
+                    "text": "Facilities"
+                  }
+                }
+              },
+              {
+                "label": "Food Services",
+                "value": {
+                  "input": {
+                    "text": "Food Services"
+                  }
+                }
+              },
+              {
+                "label": "Housekeeping services",
+                "value": {
+                  "input": {
+                    "text": "Housekeeping services"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_21_1557859731181",
+      "metadata": {},
+      "conditions": "@Faculty_staff_tabs:(Facilities and Ancillary)",
+      "dialog_node": "node_4_1557929143404",
+      "previous_sibling": "node_3_1557929126789"
+    },
+    {
+      "type": "standard",
+      "title": "Human Resources",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What type of information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Healthy Workplace",
+                "value": {
+                  "input": {
+                    "text": "Healthy workplace"
+                  }
+                }
+              },
+              {
+                "label": "Leader Support",
+                "value": {
+                  "input": {
+                    "text": "Leader Support"
+                  }
+                }
+              },
+              {
+                "label": "Learning and Development",
+                "value": {
+                  "input": {
+                    "text": "Learning and Development"
+                  }
+                }
+              },
+              {
+                "label": "Pension and Benifits",
+                "value": {
+                  "input": {
+                    "text": "Pension and Benifits"
+                  }
+                }
+              },
+              {
+                "label": "Working at the University",
+                "value": {
+                  "input": {
+                    "text": "Working at the University"
+                  }
+                }
+              },
+              {
+                "label": "My HR connection",
+                "value": {
+                  "input": {
+                    "text": "My HR connection"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_21_1557859731181",
+      "metadata": {},
+      "conditions": "@Faculty_staff_tabs:(Human Resources)",
+      "dialog_node": "node_2_1557929111278",
+      "previous_sibling": "node_1_1557928303071"
+    },
+    {
+      "type": "standard",
+      "title": "Communications and Marketing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What type of services are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Digital Media",
+                "value": {
+                  "input": {
+                    "text": "Digital Media"
+                  }
+                }
+              },
+              {
+                "label": "Editorial",
+                "value": {
+                  "input": {
+                    "text": "Editorial"
+                  }
+                }
+              },
+              {
+                "label": "Event",
+                "value": {
+                  "input": {
+                    "text": "Event"
+                  }
+                }
+              },
+              {
+                "label": "Faculty Experts",
+                "value": {
+                  "input": {
+                    "text": "Faculty Experts"
+                  }
+                }
+              },
+              {
+                "label": "Graphic Design",
+                "value": {
+                  "input": {
+                    "text": "Graphic Design"
+                  }
+                }
+              },
+              {
+                "label": "Marketing Materials",
+                "value": {
+                  "input": {
+                    "text": "Marketing Materials"
+                  }
+                }
+              },
+              {
+                "label": "Media Relations",
+                "value": {
+                  "input": {
+                    "text": "Media Relations"
+                  }
+                }
+              },
+              {
+                "label": "Production Services",
+                "value": {
+                  "input": {
+                    "text": "Production Services"
+                  }
+                }
+              },
+              {
+                "label": "Project Mangement",
+                "value": {
+                  "input": {
+                    "text": "Project Management"
+                  }
+                }
+              },
+              {
+                "label": "Stationery and promotional items",
+                "value": {
+                  "input": {
+                    "text": "Stationery and promotional items"
+                  }
+                }
+              },
+              {
+                "label": "Social Media",
+                "value": {
+                  "input": {
+                    "text": "Social Media"
+                  }
+                }
+              },
+              {
+                "label": "Web Development",
+                "value": {
+                  "input": {
+                    "text": "Web Development"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_21_1557859731181",
+      "metadata": {},
+      "conditions": "@Faculty_staff_tabs:(Commuincations and Marketing)",
+      "dialog_node": "node_1_1557928303071"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To",
+      "parent": "node_25_1557859871458",
+      "metadata": {},
+      "dialog_node": "node_97_1558122390014"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Grandparent",
+                "value": {
+                  "input": {
+                    "text": "Grandparent"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_46_1558120786959",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_47_1558120786959"
+    },
+    {
+      "type": "standard",
+      "title": "Undergraduate Tabs",
+      "output": {},
+      "parent": "node_2_1557839289166",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1558116881257"
+      },
+      "conditions": "@tabs && #future_student",
+      "dialog_node": "node_3_1557840553566",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_84_1558121968430",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1557859835189"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_86_1558121968430",
+      "previous_sibling": "node_85_1558121968430"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_84_1558121968430",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_85_1558121968430"
+    },
+    {
+      "type": "standard",
+      "title": "Facilities and Ancillary tabs",
+      "output": {},
+      "parent": "node_4_1557929143404",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_47_1558120786959"
+      },
+      "conditions": "#Faculty_Staff && @Facilities_Ancillary",
+      "dialog_node": "node_38_1557943203519",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to grandparent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1558116070925",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557838735777"
+      },
+      "conditions": "@Jump-to-nodes:(Grand Parent)",
+      "dialog_node": "node_6_1558116147291",
+      "previous_sibling": "node_5_1558116114767"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1558116070925",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1557839289166"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_7_1558116180494",
+      "previous_sibling": "node_6_1558116147291"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1558116070925",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_5_1558116114767"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for graduate awards and funding: https://gradstudies.uoit.ca/current_students/student_finances/graduate_student_funding/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_13_1557842612121",
+      "metadata": {},
+      "conditions": "@graduate_tabs:(student awards and funding)",
+      "dialog_node": "node_16_1557842712717",
+      "previous_sibling": "node_15_1557842677432"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Application and Requirements: https://gradstudies.uoit.ca/future_students/application_process_and_requirement/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_13_1557842612121",
+      "metadata": {},
+      "conditions": "@graduate_tabs:(Graduate studies)",
+      "dialog_node": "node_17_1557842756981",
+      "previous_sibling": "node_16_1557842712717"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Graduate Tuition and Fee's:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_13_1557842612121",
+      "metadata": {},
+      "conditions": "@graduate_tabs:(Tuition and Fees)",
+      "dialog_node": "node_20_1557843114130",
+      "previous_sibling": "node_19_1557843067050"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Graduate contact infrormatio: https://gradstudies.uoit.ca/contact/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_13_1557842612121",
+      "metadata": {},
+      "conditions": "@graduate_tabs:(Contact information)",
+      "dialog_node": "node_22_1557843617899",
+      "previous_sibling": "node_20_1557843114130"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a Link for international applicants: https://gradstudies.uoit.ca/future_students/international_applicants/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_13_1557842612121",
+      "metadata": {},
+      "conditions": "@graduate_tabs:(International Applicants)",
+      "dialog_node": "node_19_1557843067050",
+      "previous_sibling": "node_18_1557843029201"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for our Doctoral programs: https://gradstudies.uoit.ca/future_students/programs/doctoral_programs/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1557842612121",
+      "metadata": {},
+      "conditions": "@graduate_tabs:Doctoral",
+      "dialog_node": "node_14_1557842635075",
+      "previous_sibling": "node_10_1558117560025"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for our Masters programs: https://gradstudies.uoit.ca/future_students/programs/masters_programs/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_13_1557842612121",
+      "metadata": {},
+      "conditions": "@graduate_tabs:Masters",
+      "dialog_node": "node_15_1557842677432",
+      "previous_sibling": "node_14_1557842635075"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Graduate Research Opportunities: https://gradstudies.uoit.ca/future_students/graduate_student_research/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_13_1557842612121",
+      "metadata": {},
+      "conditions": "@graduate_tabs:research",
+      "dialog_node": "node_18_1557843029201",
+      "previous_sibling": "node_17_1557842756981"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To's",
+      "parent": "node_13_1557842612121",
+      "metadata": {},
+      "dialog_node": "node_10_1558117560025"
+    },
+    {
+      "type": "standard",
+      "title": "Graduate Tabs",
+      "output": {},
+      "parent": "node_2_1557847316753",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1558118330276"
+      },
+      "conditions": "#current_student && @current_grad",
+      "dialog_node": "node_12_1557857265693",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Partners Tabs",
+      "output": {},
+      "parent": "node_22_1557859823016",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_59_1558121078081"
+      },
+      "conditions": "#Partners && @partners_tab",
+      "dialog_node": "node_53_1557951542240",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_88_1558122278228",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_89_1558122278228"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_42_1558120707442",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1557929126789"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_45_1558120707442",
+      "previous_sibling": "node_44_1558120707442"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to grandparent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_42_1558120707442",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1557859731181"
+      },
+      "conditions": "@Jump-to-nodes:(Grand Parent)",
+      "dialog_node": "node_44_1558120707442",
+      "previous_sibling": "node_43_1558120707442"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_42_1558120707442",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_43_1558120707442"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Grandparent",
+                "value": {
+                  "input": {
+                    "text": "Grandparent"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_52_1558120839906",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_53_1558120839907"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to grandparent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_36_1558119580235",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1557859731181"
+      },
+      "conditions": "@Jump-to-nodes:(Grand Parent)",
+      "dialog_node": "node_38_1558119580235",
+      "previous_sibling": "node_37_1558119580235"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_36_1558119580235",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1557929111278"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_39_1558119580235",
+      "previous_sibling": "node_38_1558119580235"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_36_1558119580235",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_37_1558119580235"
+    },
+    {
+      "type": "standard",
+      "title": "HR tabs",
+      "output": {},
+      "parent": "node_2_1557929111278",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_35_1558119580235"
+      },
+      "conditions": "@HR_Tabs && #Faculty_Staff",
+      "dialog_node": "node_20_1557932192706",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_93_1558122348177",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_94_1558122348178"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to grandparent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_54_1558120839907",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1557859731181"
+      },
+      "conditions": "@Jump-to-nodes:(Grand Parent)",
+      "dialog_node": "node_56_1558120839907",
+      "previous_sibling": "node_55_1558120839907"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_54_1558120839907",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1557929166336"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_57_1558120839907",
+      "previous_sibling": "node_56_1558120839907"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_54_1558120839907",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_55_1558120839907"
+    },
+    {
+      "type": "standard",
+      "title": "Finance Tabs",
+      "output": {},
+      "parent": "node_5_1557929166336",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_53_1558120839907"
+      },
+      "conditions": "#Faculty_Staff && @Finance_Tabs",
+      "dialog_node": "node_42_1557944387417",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Research Partners tabs",
+      "output": {},
+      "parent": "node_3_1558012224128",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_71_1558121536183"
+      },
+      "conditions": "@research_partners",
+      "dialog_node": "node_4_1558012523795",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Future Student: Graduate",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What type of information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Application and Requirements",
+                "value": {
+                  "input": {
+                    "text": "Application and Requirements"
+                  }
+                }
+              },
+              {
+                "label": "Masters Programs",
+                "value": {
+                  "input": {
+                    "text": "Masters Programs"
+                  }
+                }
+              },
+              {
+                "label": "Doctoral Programs",
+                "value": {
+                  "input": {
+                    "text": "Doctoral Programs"
+                  }
+                }
+              },
+              {
+                "label": "Graduate Student Awards and Funding",
+                "value": {
+                  "input": {
+                    "text": "Graduate Student Awards and Funding"
+                  }
+                }
+              },
+              {
+                "label": "Graduate student research",
+                "value": {
+                  "input": {
+                    "text": "Graduate student research"
+                  }
+                }
+              },
+              {
+                "label": "Tuition and Fees",
+                "value": {
+                  "input": {
+                    "text": "Tuition and Fees"
+                  }
+                }
+              },
+              {
+                "label": "International Applicants",
+                "value": {
+                  "input": {
+                    "text": "International Applicants"
+                  }
+                }
+              },
+              {
+                "label": "Contact Information",
+                "value": {
+                  "input": {
+                    "text": "contact info"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1557838735777",
+      "metadata": {},
+      "conditions": "@student_type:Graduate",
+      "dialog_node": "node_12_1557842195300",
+      "previous_sibling": "node_2_1557839289166"
+    },
+    {
+      "type": "standard",
+      "title": "Future Student: Undergraduate",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What type of information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Admissions",
+                "value": {
+                  "input": {
+                    "text": "Admissions"
+                  }
+                }
+              },
+              {
+                "label": "International Applicants",
+                "value": {
+                  "input": {
+                    "text": "Undergraduate international applicant"
+                  }
+                }
+              },
+              {
+                "label": "Undergraduate Programs",
+                "value": {
+                  "input": {
+                    "text": "Undergraduate programs"
+                  }
+                }
+              },
+              {
+                "label": "Tours and Events",
+                "value": {
+                  "input": {
+                    "text": "Tours and Events"
+                  }
+                }
+              },
+              {
+                "label": "Viewbook",
+                "value": {
+                  "input": {
+                    "text": "Viewbook"
+                  }
+                }
+              },
+              {
+                "label": "Contact Infromation",
+                "value": {
+                  "input": {
+                    "text": "Contact info"
+                  }
+                }
+              },
+              {
+                "label": "Faculties",
+                "value": {
+                  "input": {
+                    "text": "Faculties"
+                  }
+                }
+              },
+              {
+                "label": "Student Awards And Financial Aid",
+                "value": {
+                  "input": {
+                    "text": "Financial Aid"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1557838735777",
+      "metadata": {},
+      "conditions": "@student_type:Undergraduate",
+      "dialog_node": "node_2_1557839289166"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_65_1558121182570",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_66_1558121182570"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_8_1558116881257",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_4_1558116070925",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Grandparent",
+                "value": {
+                  "input": {
+                    "text": "Grandparent"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_16_1558118222024",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_17_1558118222027"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_78_1558121604162",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1557859835189"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_80_1558121604162",
+      "previous_sibling": "node_79_1558121604162"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_78_1558121604162",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_79_1558121604162"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for records and scheduling: https://uoit.ca/current-students/academics/records-and-scheduling/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1557849069488",
+      "metadata": {},
+      "conditions": "@current_undergrad:(Records and scheduling)",
+      "dialog_node": "node_11_1557856397817",
+      "previous_sibling": "node_10_1557849374349"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link to the academic calendar: https://uoit.ca/current-students/academics/academic-calendars/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1557849069488",
+      "metadata": {},
+      "conditions": "@current_undergrad:(Academic Calendar)",
+      "dialog_node": "node_5_1557849137305",
+      "previous_sibling": "node_4_1557849085957"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for academic advising: https://uoit.ca/current-students/academics/academic-advising/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1557849069488",
+      "metadata": {},
+      "conditions": "@current_undergrad:(Academic Advising)",
+      "dialog_node": "node_4_1557849085957",
+      "previous_sibling": "node_16_1558118222024"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link to the MyCampus Portal: https://uoit.ca/current-students/academics/mycampus.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1557849069488",
+      "metadata": {},
+      "conditions": "@current_undergrad:(MyCampus Portal)",
+      "dialog_node": "node_7_1557849203450",
+      "previous_sibling": "node_6_1557849180282"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for the Office of the Registrar: https://registrar.uoit.ca/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1557849069488",
+      "metadata": {},
+      "conditions": "@current_undergrad:(Office of the Registrar)",
+      "dialog_node": "node_8_1557849254121",
+      "previous_sibling": "node_7_1557849203450"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Undergraduate Policies and Procedures: https://uoit.ca/current-students/academics/policies-procedures/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1557849069488",
+      "metadata": {},
+      "conditions": "@current_undergrad:(Policies and Procedures)",
+      "dialog_node": "node_9_1557849333976",
+      "previous_sibling": "node_8_1557849254121"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for undergraduate important dates and deadlines: https://uoit.ca/current-students/academics/important-dates-and-deadlines.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1557849069488",
+      "metadata": {},
+      "conditions": "@current_undergrad:(Important Dates and deadlines)",
+      "dialog_node": "node_6_1557849180282",
+      "previous_sibling": "node_5_1557849137305"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Academic Integrity:  https://academicintegrity.uoit.ca/index.phphttps://academicintegrity.uoit.ca/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1557849069488",
+      "metadata": {},
+      "conditions": "@current_undergrad:(Academic Integrity)",
+      "dialog_node": "node_10_1557849374349",
+      "previous_sibling": "node_9_1557849333976"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To's",
+      "parent": "node_3_1557849069488",
+      "metadata": {},
+      "dialog_node": "node_16_1558118222024"
+    },
+    {
+      "type": "standard",
+      "title": "Discover Research tabs",
+      "output": {},
+      "parent": "node_1_1558011809650",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_65_1558121182570"
+      },
+      "conditions": "@discover_research",
+      "dialog_node": "node_2_1558012202774",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_76_1558121604161",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_77_1558121604162"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_83_1558121968430",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_84_1558121968430"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Industry solution licenses: https://research.uoit.ca/partners/industry-solution-for-license/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558012523795",
+      "metadata": {},
+      "conditions": "@research_partners:(Indsutry Solution for license)",
+      "dialog_node": "node_15_1558102303442",
+      "previous_sibling": "node_14_1558102224141"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for information on how you can collacorate with us: https://research.uoit.ca/partners/real-world-collaborations.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558012523795",
+      "metadata": {},
+      "conditions": "@research_partners:(Collaborate with UOIT)",
+      "dialog_node": "node_12_1558101963545",
+      "previous_sibling": "node_11_1558101785055"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for the impacts of partnered research: https://research.uoit.ca/partners/partnered-research-impact.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558012523795",
+      "metadata": {},
+      "conditions": "@research_partners:(Partnered research impact)",
+      "dialog_node": "node_13_1558102042392",
+      "previous_sibling": "node_12_1558101963545"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for our research partners: https://research.uoit.ca/partners/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1558012523795",
+      "metadata": {},
+      "conditions": "@research_partners:(Research partners)",
+      "dialog_node": "node_11_1558101785055",
+      "previous_sibling": "node_70_1558121536181"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for collaborative research funding: https://research.uoit.ca/partners/funding-connections.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558012523795",
+      "metadata": {},
+      "conditions": "@research_partners:(Collaborative research funding)",
+      "dialog_node": "node_14_1558102224141",
+      "previous_sibling": "node_13_1558102042392"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To",
+      "parent": "node_4_1558012523795",
+      "metadata": {},
+      "dialog_node": "node_70_1558121536181"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link to our Research Infrastructure: https://research.uoit.ca/discover-research/research-infrastructure.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1558012202774",
+      "metadata": {},
+      "conditions": "@discover_research:(Research Infrastructure)",
+      "dialog_node": "node_5_1558098865518",
+      "previous_sibling": "node_4_1558098830183"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link to our Research Chairs:  https://research.uoit.ca/discover-research/research-chairs.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1558012202774",
+      "metadata": {},
+      "conditions": "@discover_research:(Research Chairs)",
+      "dialog_node": "node_4_1558098830183",
+      "previous_sibling": "node_3_1558098690017"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for our Research FAQ: https://research.uoit.ca/discover-research/faq.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1558012202774",
+      "metadata": {},
+      "conditions": "@discover_research:(Research FAQ)",
+      "dialog_node": "node_9_1558099380987",
+      "previous_sibling": "node_8_1558099196158"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for our Research Experts: https://uoit.ca/expertcentre/"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1558012202774",
+      "metadata": {},
+      "conditions": "@discover_research:(Expert Center)",
+      "dialog_node": "node_8_1558099196158",
+      "previous_sibling": "node_7_1558099144862"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link to our Welcome message:   https://research.uoit.ca/discover-research/welcome-message.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1558012202774",
+      "metadata": {},
+      "conditions": "@discover_research:(Welcome Message)",
+      "dialog_node": "node_2_1558097343223",
+      "previous_sibling": "node_1_1558097335639"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for our Research: https://research.uoit.ca/discover-research/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1558012202774",
+      "metadata": {},
+      "conditions": "@discover_research:(Discover Research)",
+      "dialog_node": "node_1_1558097335639",
+      "previous_sibling": "node_64_1558121182569"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Research Events: https://research.uoit.ca/discover-research/events/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1558012202774",
+      "metadata": {},
+      "conditions": "@discover_research:Events",
+      "dialog_node": "node_7_1558099144862",
+      "previous_sibling": "node_6_1558099068857"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is UOIT Research at a glance: https://research.uoit.ca/discover-research/uoit-research-at-a-glance/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1558012202774",
+      "metadata": {},
+      "conditions": "@discover_research:(Research at a Glance)",
+      "dialog_node": "node_3_1558098690017",
+      "previous_sibling": "node_2_1558097343223"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Public Accountability for Research: https://research.uoit.ca/discover-research/public-accountability/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1558012202774",
+      "metadata": {},
+      "conditions": "@discover_research:(Public Accountability)",
+      "dialog_node": "node_6_1558099068857",
+      "previous_sibling": "node_5_1558098865518"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To's",
+      "parent": "node_2_1558012202774",
+      "metadata": {},
+      "dialog_node": "node_64_1558121182569"
+    },
+    {
+      "type": "standard",
+      "title": "Current Student: Graduate Student",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What type of information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "New Graduate Students",
+                "value": {
+                  "input": {
+                    "text": "New Graduate Students"
+                  }
+                }
+              },
+              {
+                "label": "Graduate Academic Calendar",
+                "value": {
+                  "input": {
+                    "text": "Graduate Academic Calendar"
+                  }
+                }
+              },
+              {
+                "label": "Important Dates",
+                "value": {
+                  "input": {
+                    "text": "Graduate Important Dates"
+                  }
+                }
+              },
+              {
+                "label": "PHD Candidacy Exam",
+                "value": {
+                  "input": {
+                    "text": "PhD Candidacy Exam"
+                  }
+                }
+              },
+              {
+                "label": "Graduate Student Finances",
+                "value": {
+                  "input": {
+                    "text": "Graduate Finances"
+                  }
+                }
+              },
+              {
+                "label": "Thesis",
+                "value": {
+                  "input": {
+                    "text": "Thesis"
+                  }
+                }
+              },
+              {
+                "label": "Three Minute Thesis",
+                "value": {
+                  "input": {
+                    "text": "Three Minute Thesis"
+                  }
+                }
+              },
+              {
+                "label": "Convocation",
+                "value": {
+                  "input": {
+                    "text": "Convocation"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_26_1557843834507",
+      "metadata": {},
+      "conditions": "@student_type:Graduate",
+      "dialog_node": "node_2_1557847316753",
+      "previous_sibling": "node_1_1557847261134"
+    },
+    {
+      "type": "standard",
+      "title": "Current Student: Undergraduate",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What type of information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Academic Advising",
+                "value": {
+                  "input": {
+                    "text": "Academic Advising"
+                  }
+                }
+              },
+              {
+                "label": "Academic Calendar",
+                "value": {
+                  "input": {
+                    "text": "Academic Calendar"
+                  }
+                }
+              },
+              {
+                "label": "Important Dates and Deadlines",
+                "value": {
+                  "input": {
+                    "text": "Dates and Deadlines"
+                  }
+                }
+              },
+              {
+                "label": "MyCampus Portal",
+                "value": {
+                  "input": {
+                    "text": "Mycampus"
+                  }
+                }
+              },
+              {
+                "label": "Policies and Procedures",
+                "value": {
+                  "input": {
+                    "text": "Policies and Procedures"
+                  }
+                }
+              },
+              {
+                "label": "Records and Scheduling",
+                "value": {
+                  "input": {
+                    "text": "Records and Scheduling"
+                  }
+                }
+              },
+              {
+                "label": "Student Awards and Financial Aid",
+                "value": {
+                  "input": {
+                    "text": "Student Awards and Financial Aid"
+                  }
+                }
+              },
+              {
+                "label": "Academic Integrity",
+                "value": {
+                  "input": {
+                    "text": "Academic Integrity"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_26_1557843834507",
+      "metadata": {},
+      "conditions": "@student_type:Undergraduate",
+      "dialog_node": "node_1_1557847261134"
+    },
+    {
+      "type": "standard",
+      "title": "Partners",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What type if information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "About",
+                "value": {
+                  "input": {
+                    "text": "About"
+                  }
+                }
+              },
+              {
+                "label": "Reasources and Services",
+                "value": {
+                  "input": {
+                    "text": "Reasources and Services"
+                  }
+                }
+              },
+              {
+                "label": "FAQ's",
+                "value": {
+                  "input": {
+                    "text": "FAQs"
+                  }
+                }
+              },
+              {
+                "label": "Contact",
+                "value": {
+                  "input": {
+                    "text": "contact"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_29_1557938174125",
+      "metadata": {},
+      "conditions": "#Partners",
+      "dialog_node": "node_22_1557859823016",
+      "previous_sibling": "node_21_1557859731181"
+    },
+    {
+      "type": "standard",
+      "title": "Research",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What type of information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Discover Research",
+                "value": {
+                  "input": {
+                    "text": "Discover Research"
+                  }
+                }
+              },
+              {
+                "label": "Partners",
+                "value": {
+                  "input": {
+                    "text": "Research Partners"
+                  }
+                }
+              },
+              {
+                "label": "Research for Faculty",
+                "value": {
+                  "input": {
+                    "text": "Research for Faculty"
+                  }
+                }
+              },
+              {
+                "label": "Research for Students",
+                "value": {
+                  "input": {
+                    "text": "Research for Students"
+                  }
+                }
+              },
+              {
+                "label": "IRIS Research portal",
+                "value": {
+                  "input": {
+                    "text": "IRIS Portal"
+                  }
+                }
+              },
+              {
+                "label": "Contacts",
+                "value": {
+                  "input": {
+                    "text": "Research Contacts"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_29_1557938174125",
+      "metadata": {},
+      "conditions": "#research",
+      "dialog_node": "node_23_1557859835189",
+      "previous_sibling": "node_22_1557859823016"
+    },
+    {
+      "type": "standard",
+      "title": "Current Student",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you an undergraduate or graduate student?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Undergraduate",
+                "value": {
+                  "input": {
+                    "text": "undergraduate"
+                  }
+                }
+              },
+              {
+                "label": "Graduate",
+                "value": {
+                  "input": {
+                    "text": "graduate"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_29_1557938174125",
+      "metadata": {},
+      "conditions": "#current_student",
+      "dialog_node": "node_26_1557843834507",
+      "previous_sibling": "node_1_1557838735777"
+    },
+    {
+      "type": "standard",
+      "title": "Faculty and Staff",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What type if information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Communications and Marketing",
+                "value": {
+                  "input": {
+                    "text": "Communications and Marketing"
+                  }
+                }
+              },
+              {
+                "label": "Human Resources",
+                "value": {
+                  "input": {
+                    "text": "Human Resources"
+                  }
+                }
+              },
+              {
+                "label": "It Services",
+                "value": {
+                  "input": {
+                    "text": "It Services"
+                  }
+                }
+              },
+              {
+                "label": "Facilities and Ancillary",
+                "value": {
+                  "input": {
+                    "text": "Facilities and Ancillary"
+                  }
+                }
+              },
+              {
+                "label": "Finance",
+                "value": {
+                  "input": {
+                    "text": "Finance"
+                  }
+                }
+              },
+              {
+                "label": "Other",
+                "value": {
+                  "input": {
+                    "text": "Other"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_29_1557938174125",
+      "metadata": {},
+      "conditions": "#Faculty_Staff",
+      "dialog_node": "node_21_1557859731181",
+      "previous_sibling": "node_26_1557843834507"
+    },
+    {
+      "type": "standard",
+      "title": "Giving",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for giving and donating for UOIT: https://uoit.ca/giving/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1557938174125",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_93_1558122348177"
+      },
+      "conditions": "#giving_donating",
+      "dialog_node": "node_24_1557859855429",
+      "previous_sibling": "node_23_1557859835189"
+    },
+    {
+      "type": "standard",
+      "title": "Alumni",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Alumni: https://alumni.uoit.ca/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1557938174125",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_98_1558122390014"
+      },
+      "conditions": "@Alumni",
+      "dialog_node": "node_25_1557859871458",
+      "previous_sibling": "node_24_1557859855429"
+    },
+    {
+      "type": "standard",
+      "title": "Future Student",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you an Undergraduate or Graduate student?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Undergraduate",
+                "value": {
+                  "input": {
+                    "text": "Undergraduate"
+                  }
+                }
+              },
+              {
+                "label": "Graduate",
+                "value": {
+                  "input": {
+                    "text": "Graduate"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_29_1557938174125",
+      "metadata": {},
+      "conditions": "#future_student",
+      "dialog_node": "node_1_1557838735777"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_89_1558122278228",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1557859835189"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_91_1558122278228",
+      "previous_sibling": "node_90_1558122278228"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_89_1558122278228",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_90_1558122278228"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_41_1558120707442",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_42_1558120707442"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_53_1558120839907",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_54_1558120839907"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_98_1558122390014",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_99_1558122390014"
+    },
+    {
+      "type": "standard",
+      "title": "It Services tab",
+      "output": {},
+      "parent": "node_3_1557929126789",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_41_1558120707442"
+      },
+      "conditions": "#Faculty_Staff && @IT_Services",
+      "dialog_node": "node_31_1557938693905",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_99_1558122390014",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_100_1558122390014"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_92_1558122348176",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_93_1558122348177"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to grandparent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_72_1558121536183",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1557859835189"
+      },
+      "conditions": "@Jump-to-nodes:(Grand Parent)",
+      "dialog_node": "node_74_1558121536183",
+      "previous_sibling": "node_73_1558121536183"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_72_1558121536183",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558012224128"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_75_1558121536183",
+      "previous_sibling": "node_74_1558121536183"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_72_1558121536183",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_73_1558121536183"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_35_1558119580235",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_36_1558119580235"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Grandparent",
+                "value": {
+                  "input": {
+                    "text": "Grandparent"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_58_1558121078080",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_59_1558121078081"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Leader Support: http://hr.uoit.ca/leader-support/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_20_1557932192706",
+      "metadata": {},
+      "conditions": "@HR_Tabs:(Leader Support)",
+      "dialog_node": "node_22_1557932768730",
+      "previous_sibling": "node_21_1557932220493"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for learning and development: http://hr.uoit.ca/learning-and-organizational-development/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_20_1557932192706",
+      "metadata": {},
+      "conditions": "@HR_Tabs:(Learning and Development)",
+      "dialog_node": "node_23_1557932909008",
+      "previous_sibling": "node_22_1557932768730"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Pension and Benifits: http://hr.uoit.ca/pension-and-benefits/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_20_1557932192706",
+      "metadata": {},
+      "conditions": "@HR_Tabs:(Pension and Benifits)",
+      "dialog_node": "node_24_1557932984308",
+      "previous_sibling": "node_23_1557932909008"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Working at the University: http://hr.uoit.ca/working_at_uoit/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_20_1557932192706",
+      "metadata": {},
+      "conditions": "@HR_Tabs:(Working at the University)",
+      "dialog_node": "node_25_1557933021731",
+      "previous_sibling": "node_24_1557932984308"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for HR connections: hr.uoit.ca/my-hr-connection/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_20_1557932192706",
+      "metadata": {},
+      "conditions": "@HR_Tabs:(My HR connection)",
+      "dialog_node": "node_26_1557933096785",
+      "previous_sibling": "node_25_1557933021731"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for information on Healthy Workplace:  http://hr.uoit.ca/healthy-workplace/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1557932192706",
+      "metadata": {},
+      "conditions": "@HR_Tabs:(Healthy Workplace)",
+      "dialog_node": "node_21_1557932220493",
+      "previous_sibling": "node_34_1558119580234"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To's",
+      "parent": "node_20_1557932192706",
+      "metadata": {},
+      "dialog_node": "node_34_1558119580234"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Finance Departments:  https://sites.uoit.ca/finance/departments/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_42_1557944387417",
+      "metadata": {},
+      "conditions": "@Finance_Tabs:(Finance Departmants)",
+      "dialog_node": "node_43_1557945822116",
+      "previous_sibling": "node_52_1558120839906"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Finance Contact: https://sites.uoit.ca/finance/contact.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_42_1557944387417",
+      "metadata": {},
+      "conditions": "@Finance_Tabs:(Finance Contact)",
+      "dialog_node": "node_46_1557946336909",
+      "previous_sibling": "node_45_1557946252429"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Chart of Accountants:  https://sites.uoit.ca/finance/chart-of-accounts/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_42_1557944387417",
+      "metadata": {},
+      "conditions": "@Finance_Tabs:(Chart of Accountants)",
+      "dialog_node": "node_45_1557946252429",
+      "previous_sibling": "node_44_1557946234098"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for financial statments: https://sites.uoit.ca/finance/financial-statements/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_42_1557944387417",
+      "metadata": {},
+      "conditions": "@Finance_Tabs:(Financial Statements)",
+      "dialog_node": "node_44_1557946234098",
+      "previous_sibling": "node_43_1557945822116"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To's",
+      "parent": "node_42_1557944387417",
+      "metadata": {},
+      "dialog_node": "node_52_1558120839906"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Grandparent",
+                "value": {
+                  "input": {
+                    "text": "Grandparent"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_64_1558121182569",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_65_1558121182570"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for research contact information:  https://research.uoit.ca/contacts.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1558028217130",
+      "metadata": {},
+      "conditions": "@research:(Research contact)",
+      "dialog_node": "node_17_1558102926355",
+      "previous_sibling": "node_16_1558102886110"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for the IRIS research portal: https://research.uoit.ca/iris-research-portal/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1558028217130",
+      "metadata": {},
+      "conditions": "@research:(IRIS Research)",
+      "dialog_node": "node_16_1558102886110",
+      "previous_sibling": "node_87_1558122278226"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To",
+      "parent": "node_1_1558028217130",
+      "metadata": {},
+      "dialog_node": "node_87_1558122278226"
+    },
+    {
+      "type": "standard",
+      "title": "Graduate Tabs",
+      "output": {},
+      "parent": "node_12_1557842195300",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11_1558117560027"
+      },
+      "conditions": "@graduate_tabs && #future_student",
+      "dialog_node": "node_13_1557842612121",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to grandparent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_66_1558121182570",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1557859835189"
+      },
+      "conditions": "@Jump-to-nodes:(Grand Parent)",
+      "dialog_node": "node_68_1558121182570",
+      "previous_sibling": "node_67_1558121182570"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_66_1558121182570",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1558011809650"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_69_1558121182570",
+      "previous_sibling": "node_68_1558121182570"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_66_1558121182570",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_67_1558121182570"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Grandparent",
+                "value": {
+                  "input": {
+                    "text": "Grandparent"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_28_1558118657249",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_29_1558118657251"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to grandparent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1558117560027",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557838735777"
+      },
+      "conditions": "@Jump-to-nodes:(Grand Parent)",
+      "dialog_node": "node_14_1558117560027",
+      "previous_sibling": "node_13_1558117560027"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1558117560027",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_12_1557842195300"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_15_1558117560027",
+      "previous_sibling": "node_14_1558117560027"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1558117560027",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_13_1558117560027"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Facilities: https://uoit.ca/faculty_staff/services/facilities/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_38_1557943203519",
+      "metadata": {},
+      "conditions": "@Facilities_Ancillary:Facilities",
+      "dialog_node": "node_39_1557943275076",
+      "previous_sibling": "node_46_1558120786959"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Food Services: https://uoit.ca/faculty_staff/services/facilities/food-services/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_38_1557943203519",
+      "metadata": {},
+      "conditions": "@Facilities_Ancillary:(Food Services)",
+      "dialog_node": "node_40_1557943452061",
+      "previous_sibling": "node_39_1557943275076"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Housekeeping services:  https://uoit.ca/faculty_staff/services/facilities/housekeeping-services.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_38_1557943203519",
+      "metadata": {},
+      "conditions": "@Facilities_Ancillary:(Housekeeping services)",
+      "dialog_node": "node_41_1557943549974",
+      "previous_sibling": "node_40_1557943452061"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To's",
+      "parent": "node_38_1557943203519",
+      "metadata": {},
+      "dialog_node": "node_46_1558120786959"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_17_1558118222027",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_18_1558118222027"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to grandparent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1558118657251",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1557859731181"
+      },
+      "conditions": "@Jump-to-nodes:(Grand Parent)",
+      "dialog_node": "node_32_1558118657251",
+      "previous_sibling": "node_31_1558118657251"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1558118657251",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557928303071"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_33_1558118657251",
+      "previous_sibling": "node_32_1558118657251"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1558118657251",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_31_1558118657251"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_94_1558122348178",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_95_1558122348178"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to grandparent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_60_1558121078081",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1557859731181"
+      },
+      "conditions": "@Jump-to-nodes:(Grand Parent)",
+      "dialog_node": "node_62_1558121078081",
+      "previous_sibling": "node_61_1558121078081"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_60_1558121078081",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_53_1557951542240"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_63_1558121078081",
+      "previous_sibling": "node_62_1558121078081"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_60_1558121078081",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_61_1558121078081"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_97_1558122390014",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_98_1558122390014"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Grandparent",
+                "value": {
+                  "input": {
+                    "text": "Grandparent"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_70_1558121536181",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_71_1558121536183"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_71_1558121536183",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_72_1558121536183"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_11_1558117560027",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_12_1558117560027"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link where you can contact IT: https://itsc.uoit.ca/contact_us/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_31_1557938693905",
+      "metadata": {},
+      "conditions": "@IT_Services:(Contact IT)",
+      "dialog_node": "node_37_1557942162193",
+      "previous_sibling": "node_36_1557942131770"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link where you can get help: https://itsc.uoit.ca/getting_help/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_31_1557938693905",
+      "metadata": {},
+      "conditions": "@IT_Services:(Getting Help)",
+      "dialog_node": "node_34_1557941980287",
+      "previous_sibling": "node_33_1557941931444"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for FAQ's: https://itsc.uoit.ca/faqs/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_31_1557938693905",
+      "metadata": {},
+      "conditions": "@IT_Services:FAQ",
+      "dialog_node": "node_36_1557942131770",
+      "previous_sibling": "node_35_1557942061992"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for TELE and BYOD models: https://itsc.uoit.ca/telemodels/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_31_1557938693905",
+      "metadata": {},
+      "conditions": "@IT_Services:(Tele Model)",
+      "dialog_node": "node_33_1557941931444",
+      "previous_sibling": "node_32_1557940752804"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for IT services: https://itsc.uoit.ca/services/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_31_1557938693905",
+      "metadata": {},
+      "conditions": "@IT_Services:Services",
+      "dialog_node": "node_32_1557940752804",
+      "previous_sibling": "node_40_1558120707439"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for IT resources: https://itsc.uoit.ca/resources/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_31_1557938693905",
+      "metadata": {},
+      "conditions": "@IT_Services:Resources",
+      "dialog_node": "node_35_1557942061992",
+      "previous_sibling": "node_34_1557941980287"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To's",
+      "parent": "node_31_1557938693905",
+      "metadata": {},
+      "dialog_node": "node_40_1558120707439"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Grandparent",
+                "value": {
+                  "input": {
+                    "text": "Grandparent"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_22_1558118330275",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_23_1558118330276"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_82_1558121968429",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_83_1558121968430"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To",
+      "parent": "node_5_1558012579151",
+      "metadata": {},
+      "dialog_node": "node_76_1558121604161"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for our partnership FAQs: https://partners.uoit.ca/faqs.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_53_1557951542240",
+      "metadata": {},
+      "conditions": "@partners_tab:FAQs",
+      "dialog_node": "node_56_1557951770856",
+      "previous_sibling": "node_55_1557951732441"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for partnership resources: https://partners.uoit.ca/services-for-partners/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_53_1557951542240",
+      "metadata": {},
+      "conditions": "@partners_tab:(Resources and Services)",
+      "dialog_node": "node_55_1557951732441",
+      "previous_sibling": "node_54_1557951567646"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for more information: https://partners.uoit.ca/about/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_53_1557951542240",
+      "metadata": {},
+      "conditions": "@partners_tab:About",
+      "dialog_node": "node_54_1557951567646",
+      "previous_sibling": "node_58_1558121078080"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for partnership contact info: https://partners.uoit.ca/contact/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_53_1557951542240",
+      "metadata": {},
+      "conditions": "@partners_tab:(contact info)",
+      "dialog_node": "node_57_1557951907037",
+      "previous_sibling": "node_56_1557951770856"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To's",
+      "parent": "node_53_1557951542240",
+      "metadata": {},
+      "dialog_node": "node_58_1558121078080"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_47_1558120786959",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_48_1558120786959"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To",
+      "parent": "node_6_1558013423325",
+      "metadata": {},
+      "dialog_node": "node_82_1558121968429"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_29_1558118657251",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_30_1558118657251"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1558118330276",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_12_1557857265693"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_27_1558118330276",
+      "previous_sibling": "node_26_1558118330276"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to grandparent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1558118330276",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_26_1557843834507"
+      },
+      "conditions": "@Jump-to-nodes:(Grand Parent)",
+      "dialog_node": "node_26_1558118330276",
+      "previous_sibling": "node_25_1558118330276"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1558118330276",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_25_1558118330276"
+    },
+    {
+      "type": "standard",
+      "title": "Undergraduate tabs",
+      "output": {},
+      "parent": "node_1_1557847261134",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_17_1558118222027"
+      },
+      "conditions": "@current_undergrad && #current_student",
+      "dialog_node": "node_3_1557849069488",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Grandparent",
+                "value": {
+                  "input": {
+                    "text": "Grandparent"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1558117248346",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_8_1558116881257"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_23_1558118330276",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_24_1558118330276"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Grandparent",
+                "value": {
+                  "input": {
+                    "text": "Grandparent"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1558117560025",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_11_1558117560027"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for PhD Candidacy Exam: https://gradstudies.uoit.ca/current_students/phd-candidacy-exam.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_12_1557857265693",
+      "metadata": {},
+      "conditions": "@current_grad:(Phd Candidacy Exam)",
+      "dialog_node": "node_20_1557857789450",
+      "previous_sibling": "node_19_1557857756254"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for graduate student finances:  https://gradstudies.uoit.ca/current_students/student_finances/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_12_1557857265693",
+      "metadata": {},
+      "conditions": "@current_grad:(Graduate Student Finances)",
+      "dialog_node": "node_52_1557951320490",
+      "previous_sibling": "node_20_1557857789450"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Graduate Academic Calendar: https://gradstudies.uoit.ca/current_students/academic_calendar_course_catalogue/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_12_1557857265693",
+      "metadata": {},
+      "conditions": "@current_grad:(Graduate Academic Calendar)",
+      "dialog_node": "node_14_1557857424376",
+      "previous_sibling": "node_13_1557857302020"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Graduate Thesis information: https://gradstudies.uoit.ca/current_students/Thesis/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_12_1557857265693",
+      "metadata": {},
+      "conditions": "@current_grad:Thesis",
+      "dialog_node": "node_19_1557857756254",
+      "previous_sibling": "node_18_1557857713583"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for New Graduate Students: https://gradstudies.uoit.ca/current_students/new_students/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_12_1557857265693",
+      "metadata": {},
+      "conditions": "@current_grad:(New Graduate Students)",
+      "dialog_node": "node_13_1557857302020",
+      "previous_sibling": "node_22_1558118330275"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Forms and Publications: https://gradstudies.uoit.ca/current_students/student-forms-and-publications.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_12_1557857265693",
+      "metadata": {},
+      "conditions": "@current_grad:(Forms and Publications)",
+      "dialog_node": "node_15_1557857524067",
+      "previous_sibling": "node_14_1557857424376"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Three Minute Thesis:  https://gradstudies.uoit.ca/grad-student-engagement/three-minute-thesis/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_12_1557857265693",
+      "metadata": {},
+      "conditions": "@current_grad:(Three minute thesis)",
+      "dialog_node": "node_18_1557857713583",
+      "previous_sibling": "node_17_1557857599556"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Convocation Information: https://uoit.ca/current-students/academics/records-and-scheduling/convocation/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_12_1557857265693",
+      "metadata": {},
+      "conditions": "@current_grad:Convocation",
+      "dialog_node": "node_17_1557857599556",
+      "previous_sibling": "node_16_1557857567622"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Important Graduate Dates: https://gradstudies.uoit.ca/current_students/important-dates.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_12_1557857265693",
+      "metadata": {},
+      "conditions": "@current_grad:(Graduate important dates)",
+      "dialog_node": "node_16_1557857567622",
+      "previous_sibling": "node_15_1557857524067"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To's",
+      "parent": "node_12_1557857265693",
+      "metadata": {},
+      "dialog_node": "node_22_1558118330275"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Project Management services: https://cm.uoit.ca/services/project-management/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1557929282786",
+      "metadata": {},
+      "conditions": "@communications_marketing:(Project Management)",
+      "dialog_node": "node_16_1557930776757",
+      "previous_sibling": "node_15_1557930715199"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Web Development services: https://cm.uoit.ca/services/web/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1557929282786",
+      "metadata": {},
+      "conditions": "@communications_marketing:(Web Development)",
+      "dialog_node": "node_19_1557930941621",
+      "previous_sibling": "node_18_1557930905381"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Editorial services: https://cm.uoit.ca/services/editorial-services/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1557929282786",
+      "metadata": {},
+      "conditions": "@communications_marketing:Editorial",
+      "dialog_node": "node_9_1557930299219",
+      "previous_sibling": "node_8_1557930262835"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Event services: https://cm.uoit.ca/services/event-services/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1557929282786",
+      "metadata": {},
+      "conditions": "@communications_marketing:Events",
+      "dialog_node": "node_10_1557930339072",
+      "previous_sibling": "node_9_1557930299219"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Marketing materials: https://cm.uoit.ca/services/marketing-materials/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1557929282786",
+      "metadata": {},
+      "conditions": "@communications_marketing:(Marketing Materials)",
+      "dialog_node": "node_13_1557930638810",
+      "previous_sibling": "node_12_1557930475231"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Social media services: https://cm.uoit.ca/services/social-media/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1557929282786",
+      "metadata": {},
+      "conditions": "@communications_marketing:(Social Media)",
+      "dialog_node": "node_18_1557930905381",
+      "previous_sibling": "node_17_1557930847691"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Digital media services: https://cm.uoit.ca/services/digital-media-services/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1557929282786",
+      "metadata": {},
+      "conditions": "@communications_marketing:(Digital Media)",
+      "dialog_node": "node_8_1557930262835",
+      "previous_sibling": "node_28_1558118657249"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for our Faculty Experts: https://cm.uoit.ca/services/faculty-experts/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1557929282786",
+      "metadata": {},
+      "conditions": "@communications_marketing:(Faculty Experts)",
+      "dialog_node": "node_11_1557930410575",
+      "previous_sibling": "node_10_1557930339072"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for media relations: https://cm.uoit.ca/services/media-relations/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1557929282786",
+      "metadata": {},
+      "conditions": "@communications_marketing:(Media relations)",
+      "dialog_node": "node_14_1557930677380",
+      "previous_sibling": "node_13_1557930638810"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Stationery and Promotional items: https://cm.uoit.ca/services/stationery-promotional-items/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1557929282786",
+      "metadata": {},
+      "conditions": "@communications_marketing:(Stationery and promotional items)",
+      "dialog_node": "node_17_1557930847691",
+      "previous_sibling": "node_16_1557930776757"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Production services:  https://cm.uoit.ca/services/production-services/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1557929282786",
+      "metadata": {},
+      "conditions": "@communications_marketing:(Production Services)",
+      "dialog_node": "node_15_1557930715199",
+      "previous_sibling": "node_14_1557930677380"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Graphic Design services: https://cm.uoit.ca/services/graphic-design/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1557929282786",
+      "metadata": {},
+      "conditions": "@communications_marketing:(Graphic Design)",
+      "dialog_node": "node_12_1557930475231",
+      "previous_sibling": "node_11_1557930410575"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To's",
+      "parent": "node_7_1557929282786",
+      "metadata": {},
+      "dialog_node": "node_28_1558118657249"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Student Awards and Financial aid: https://safa.uoit.ca/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1557840553566",
+      "metadata": {},
+      "conditions": "@tabs:(Student Awards and Financial Aids)",
+      "dialog_node": "node_11_1557841506611",
+      "previous_sibling": "node_10_1557841476010"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for tours and events: https://uoit.ca/future-students/undergraduate/campus-tours-and-events/index.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1557840553566",
+      "metadata": {},
+      "conditions": "@tabs:(Tours and Events)",
+      "dialog_node": "node_7_1557841165310",
+      "previous_sibling": "node_6_1557840804707"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link to get into contact with the university: https://uoit.ca/future-students/undergraduate/contact-us.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1557840553566",
+      "metadata": {},
+      "conditions": "@tabs:(Contact Infromation)",
+      "dialog_node": "node_9_1557841464033",
+      "previous_sibling": "node_11_1557841506611"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link of International Undergrad applicants: https://admissions.uoit.ca//applicant-information/international-applicants.php"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1557840553566",
+      "metadata": {},
+      "conditions": "@tabs:International",
+      "dialog_node": "node_5_1557840712345",
+      "previous_sibling": "node_4_1557840609116"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for the viewbook: http://info.uoit.ca/uoit-viewbook"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1557840553566",
+      "metadata": {},
+      "conditions": "@tabs:Viewbook",
+      "dialog_node": "node_8_1557841207943",
+      "previous_sibling": "node_7_1557841165310"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Undergrad Admissions: https://admissions.uoit.ca//index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1557840553566",
+      "metadata": {},
+      "conditions": "@tabs:Admissions",
+      "dialog_node": "node_4_1557840609116",
+      "previous_sibling": "node_9_1558117248346"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a list of all our Faculties:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1557840553566",
+      "metadata": {},
+      "conditions": "@tabs:Faculties",
+      "dialog_node": "node_10_1557841476010",
+      "previous_sibling": "node_8_1557841207943"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Undergrad Program: https://uoit.ca/programs/undergraduate.php"
+              },
+              {
+                "text": "\nCollege-to-university transfer programs: https://uoit.ca/programs/diploma-to-degree.php"
+              },
+              {
+                "text": "Co-ops and Internships: Co-ops and internships"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1557840553566",
+      "metadata": {},
+      "conditions": "@tabs:(Undergrad programs)",
+      "dialog_node": "node_6_1557840804707",
+      "previous_sibling": "node_5_1557840712345"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To's",
+      "parent": "node_3_1557840553566",
+      "metadata": {},
+      "dialog_node": "node_9_1558117248346"
+    },
+    {
+      "type": "standard",
+      "title": "C&M tabs",
+      "output": {},
+      "parent": "node_1_1557928303071",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1558118657251"
+      },
+      "conditions": "#Faculty_Staff && @communications_marketing",
+      "dialog_node": "node_7_1557929282786",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_48_1558120786959",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557929143404"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_51_1558120786959",
+      "previous_sibling": "node_50_1558120786959"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to grandparent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_48_1558120786959",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1557859731181"
+      },
+      "conditions": "@Jump-to-nodes:(Grand Parent)",
+      "dialog_node": "node_50_1558120786959",
+      "previous_sibling": "node_49_1558120786959"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_48_1558120786959",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_49_1558120786959"
+    },
+    {
+      "type": "standard",
+      "title": "Faculty",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for Faculty research information: https://research.uoit.ca/faculty/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1557859835189",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_77_1558121604162"
+      },
+      "conditions": "@research:(Research for Faculty)",
+      "dialog_node": "node_5_1558012579151",
+      "previous_sibling": "node_3_1558012224128"
+    },
+    {
+      "type": "standard",
+      "title": "Research Partners",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Research Partners",
+                "value": {
+                  "input": {
+                    "text": "Research Partners"
+                  }
+                }
+              },
+              {
+                "label": "Collaborate with UOIT",
+                "value": {
+                  "input": {
+                    "text": "Collaborate with UOIT"
+                  }
+                }
+              },
+              {
+                "label": "Partnered research impact",
+                "value": {
+                  "input": {
+                    "text": "partnered research impact"
+                  }
+                }
+              },
+              {
+                "label": "Collaborative research funding",
+                "value": {
+                  "input": {
+                    "text": "Collaborative research funding"
+                  }
+                }
+              },
+              {
+                "label": "Current Research Partnerships",
+                "value": {
+                  "input": {
+                    "text": "Current Research Partnerships"
+                  }
+                }
+              },
+              {
+                "label": "Industry Solutions for License",
+                "value": {
+                  "input": {
+                    "text": "Industry Solution for License"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_23_1557859835189",
+      "metadata": {},
+      "conditions": "@research:Partners",
+      "dialog_node": "node_3_1558012224128",
+      "previous_sibling": "node_1_1558011809650"
+    },
+    {
+      "type": "standard",
+      "title": "Students",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link for students interested in research: https://research.uoit.ca/students/index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1557859835189",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_83_1558121968430"
+      },
+      "conditions": "@research:(Research for Students)",
+      "dialog_node": "node_6_1558013423325",
+      "previous_sibling": "node_5_1558012579151"
+    },
+    {
+      "type": "standard",
+      "title": "Other Research",
+      "output": {},
+      "parent": "node_23_1557859835189",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_88_1558122278228"
+      },
+      "conditions": "@research",
+      "dialog_node": "node_1_1558028217130",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_6_1558013423325"
+    },
+    {
+      "type": "standard",
+      "title": "Discover Research",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What would you like to discover?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Discover Research",
+                "value": {
+                  "input": {
+                    "text": "Discover research"
+                  }
+                }
+              },
+              {
+                "label": "Welcome message",
+                "value": {
+                  "input": {
+                    "text": "Welcome message"
+                  }
+                }
+              },
+              {
+                "label": "Research at a Glance",
+                "value": {
+                  "input": {
+                    "text": "Research at a Glance"
+                  }
+                }
+              },
+              {
+                "label": "Research Chairs",
+                "value": {
+                  "input": {
+                    "text": "Research Chairs"
+                  }
+                }
+              },
+              {
+                "label": "Research Infrastructure",
+                "value": {
+                  "input": {
+                    "text": "Research Infrastructure"
+                  }
+                }
+              },
+              {
+                "label": "Public Accountability",
+                "value": {
+                  "input": {
+                    "text": "Public Accountability"
+                  }
+                }
+              },
+              {
+                "label": "Events",
+                "value": {
+                  "input": {
+                    "text": "Research Events"
+                  }
+                }
+              },
+              {
+                "label": "Expert Center",
+                "value": {
+                  "input": {
+                    "text": "Expert Center"
+                  }
+                }
+              },
+              {
+                "label": "FAQ",
+                "value": {
+                  "input": {
+                    "text": "Research FAQ"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_23_1557859835189",
+      "metadata": {},
+      "conditions": "@research:(Discover Research)",
+      "dialog_node": "node_1_1558011809650"
+    },
+    {
+      "type": "folder",
+      "title": "Jump-To",
+      "parent": "node_24_1557859855429",
+      "metadata": {},
+      "dialog_node": "node_92_1558122348176"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Grandparent",
+                "value": {
+                  "input": {
+                    "text": "Grandparent"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_40_1558120707439",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_41_1558120707442"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Grandparent",
+                "value": {
+                  "input": {
+                    "text": "Grandparent"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_34_1558119580234",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_35_1558119580235"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_77_1558121604162",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_78_1558121604162"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like to go to next?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Welcome",
+                "value": {
+                  "input": {
+                    "text": "Welcome"
+                  }
+                }
+              },
+              {
+                "label": "Parent",
+                "value": {
+                  "input": {
+                    "text": "Parent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_87_1558122278226",
+      "metadata": {},
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_88_1558122278228"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome - Jump To",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you looking for anything else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Future Student",
+                "value": {
+                  "input": {
+                    "text": "Future Student"
+                  }
+                }
+              },
+              {
+                "label": "Current Student",
+                "value": {
+                  "input": {
+                    "text": "Current Student"
+                  }
+                }
+              },
+              {
+                "label": "Faculty and Staff",
+                "value": {
+                  "input": {
+                    "text": "Faculty and Staff"
+                  }
+                }
+              },
+              {
+                "label": "Partner",
+                "value": {
+                  "input": {
+                    "text": "Partner"
+                  }
+                }
+              },
+              {
+                "label": "Giving",
+                "value": {
+                  "input": {
+                    "text": "Giving"
+                  }
+                }
+              },
+              {
+                "label": "Alumni",
+                "value": {
+                  "input": {
+                    "text": "Alumni"
+                  }
+                }
+              },
+              {
+                "label": "Research",
+                "value": {
+                  "input": {
+                    "text": "Research"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "node_3_1558114309788"
+    },
+    {
+      "type": "standard",
+      "title": "Jump-to",
+      "output": {},
+      "parent": "node_59_1558121078081",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Jump-to-nodes",
+      "dialog_node": "node_60_1558121078081"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to parent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1558118222027",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847261134"
+      },
+      "conditions": "@Jump-to-nodes:Parent",
+      "dialog_node": "node_21_1558118222027",
+      "previous_sibling": "node_20_1558118222027"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump to grandparent node"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1558118222027",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_26_1557843834507"
+      },
+      "conditions": "@Jump-to-nodes:(Grand Parent)",
+      "dialog_node": "node_20_1558118222027",
+      "previous_sibling": "node_19_1558118222027"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jump To welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1558118222027",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558114309788"
+      },
+      "conditions": "@Jump-to-nodes:Welcome",
+      "dialog_node": "node_19_1558118222027"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_30_1557938335801"
+    },
+    {
+      "type": "folder",
+      "title": "Campus Services",
+      "metadata": {},
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1558448309109",
+      "previous_sibling": "node_29_1557938174125"
+    },
+    {
+      "type": "folder",
+      "title": "Re-Branding",
+      "metadata": {},
+      "dialog_node": "node_30_1557938335801",
+      "previous_sibling": "node_1_1558448309109"
+    },
+    {
+      "type": "folder",
+      "title": "Ontario Tech Questions",
+      "metadata": {},
+      "dialog_node": "node_29_1557938174125",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. My name is Watson, welcome to Ontario Tech University. What type of information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Future Student",
+                "value": {
+                  "input": {
+                    "text": "Future Student"
+                  }
+                }
+              },
+              {
+                "label": "Current Student",
+                "value": {
+                  "input": {
+                    "text": "Current Student"
+                  }
+                }
+              },
+              {
+                "label": "Faculty and Staff",
+                "value": {
+                  "input": {
+                    "text": "Faculty and Staff"
+                  }
+                }
+              },
+              {
+                "label": "Partner",
+                "value": {
+                  "input": {
+                    "text": "Partner"
+                  }
+                }
+              },
+              {
+                "label": "Giving",
+                "value": {
+                  "input": {
+                    "text": "Giving"
+                  }
+                }
+              },
+              {
+                "label": "Alumni",
+                "value": {
+                  "input": {
+                    "text": "Alumni"
+                  }
+                }
+              },
+              {
+                "label": "Research",
+                "value": {
+                  "input": {
+                    "text": "Research"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "29cb4592-ff56-4eb5-8841-ba6e0732d704",
+  "counterexamples": [
+    {
+      "text": "Grandparent"
+    },
+    {
+      "text": "undergraduate"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
