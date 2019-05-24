@@ -28,32 +28,51 @@
   border-radius: 1rem;
   width: 20rem;
   background-color: white;
-
+  height: 80%;
+  transform: scale(0.7);
   position: fixed;
-  bottom: 10em;
-  right: 10rem;
+  bottom: 0.05em;
+  right: 2rem;
 }
 
 #chat_header{
   border: black 1px solid;
-  background-color: #0077CA;
-  transform: scale(0.5)
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: darkgray;
+  height: 60px;
 }
 
 #chat_header_p{
-  font-size: 1rem; 
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px; 
   color: aliceblue;
-  text-align: center;
+  position: relative;
+  bottom: 40%;
+  left: 10%;
 }
-
 
 #chat_header_img{
   width: 3rem;
   float: left;
-  padding-left: 3rem;
-  padding-top: 1rem;
 }
 
-#input{
-  width: 19.5rem;
+#user_input{
+  font-family: 'Ubuntu', sans-serif;  
+
+  width: 19.75rem;
+  position: fixed;
+  
+  height: 10%;
+  border-bottom-left-radius: 1rem; 
+  border-bottom-right-radius: 1rem;
+  font-size: 16px;
+}
+
+#messages{
+  font-family: 'Ubuntu', sans-serif;  
+  font-size: 20px;
+  background: grey;
+  height: 80%;
+  overflow: scroll;
 }
