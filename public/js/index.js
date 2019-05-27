@@ -1,7 +1,7 @@
 window.onload = function(){
   
   let chat_bttn = document.getElementsByClassName("chatbox_bttn")
-  let chat_cntnr = document.getElementsByClassName("container")
+  let chat_cntnr = document.getElementsByClassName("chat-column")
   let userInput = document.getElementsByClassName("user_input")
   let messages = document.getElementsByClassName("messages")
 
@@ -27,35 +27,35 @@ window.onload = function(){
     });
   });
 
-  // handle user input 
-  Array.from(userInput).forEach(function(element){
+  // // handle user input 
+  // Array.from(userInput).forEach(function(element){
 
-    // clears the chat box on page refresh
-    element.value = ""
+  //   // clears the chat box on page refresh
+  //   element.value = ""
 
-    // check for enter key press
-    element.addEventListener('keydown', function(e){
+  //   // check for enter key press
+  //   element.addEventListener('keydown', function(e){
       
-      if(e.keyCode === 13){
-        // console.log(element.value)
+  //     if(e.keyCode === 13){
+  //       // console.log(element.value)
 
-        // create a chat box to store user input
-        let message_box = document.createElement('p');
+  //       // create a chat box to store user input
+  //       let message_box = document.createElement('p');
 
-        // holds user input
-        let textNode = document.createTextNode(element.value)
-        // append userinput to message box
-        message_box.appendChild(textNode)
+  //       // holds user input
+  //       let textNode = document.createTextNode(element.value)
+  //       // append userinput to message box
+  //       message_box.appendChild(textNode)
         
-        // append messagebox to messages div
-        Array.from(messages).forEach(function (element){
-          element.appendChild(message_box)
-        })
-        // clear userinput box
-        element.value = ""
-      }
-    })
-  })
+  //       // append messagebox to messages div
+  //       Array.from(messages).forEach(function (element){
+  //         element.appendChild(message_box)
+  //       })
+  //       // clear userinput box
+  //       element.value = ""
+  //     }
+  //   })
+  // })
 
 }
 
