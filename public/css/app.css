@@ -209,4 +209,5 @@ html{
 .background{
   position: fixed;
   z-index: -2;
+  min-width: 100%;
 }
