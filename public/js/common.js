@@ -60,15 +60,15 @@ var Common = (function () {
   // Trigger an event to fire
   function fireEvent(element, event) {
     var evt;
-    if (document.createEventObject) {
-      // dispatch for IE
-      evt = document.createEventObject();
-      return element.fireEvent('on' + event, evt);
-    }
+    // if (document.createEventObject) {
+    //   // dispatch for IE
+    //   evt = document.createEventObject();
+    //   return element.fireEvent('on' + event, evt);
+    // }
     // otherwise, dispatch for Firefox, Chrome + others
     evt = document.createEvent('HTMLEvents');
     evt.initEvent(event, true, true); // event type,bubbling,cancelable
-    return !element.dispatchEvent(evt);
+    return !element.dispatchEvent(evt)
   }
 
   // A function that runs a for each loop on a List, running the callback function for each one

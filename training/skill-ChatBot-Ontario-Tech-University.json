@@ -581,6 +581,13 @@
       "values": [
         {
           "type": "synonyms",
+          "value": "Graduate research",
+          "synonyms": [
+            "Grad research"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "Research for Students",
           "synonyms": []
         },
@@ -594,16 +601,16 @@
         },
         {
           "type": "synonyms",
-          "value": "Research for Faculty",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
           "value": "Research contact",
           "synonyms": [
             "research contact info",
             "research contact information"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Research for Faculty",
+          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -626,13 +633,6 @@
             "Undergraduate research award",
             "Undergrad research award"
           ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Graduate research",
-          "synonyms": [
-            "Grad research"
-          ]
         }
       ],
       "fuzzy_match": true
@@ -650,14 +650,45 @@
         },
         {
           "type": "synonyms",
-          "value": "Phd Candidacy Exam",
-          "synonyms": []
+          "value": "Graduate Student Finances",
+          "synonyms": [
+            "Grad finances",
+            "Graduate finances"
+          ]
         },
         {
           "type": "synonyms",
           "value": "Graduate important dates",
           "synonyms": [
             "grad important dates"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Phd Candidacy Exam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Thesis",
+          "synonyms": [
+            "dissertation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Three minute thesis",
+          "synonyms": [
+            "3MT",
+            "3 Minute Thesis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "New Graduate Students",
+          "synonyms": [
+            "New grad",
+            "New Grad student"
           ]
         },
         {
@@ -671,40 +702,9 @@
         },
         {
           "type": "synonyms",
-          "value": "Three minute thesis",
-          "synonyms": [
-            "3MT",
-            "3 Minute Thesis"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Graduate Student Finances",
-          "synonyms": [
-            "Grad finances",
-            "Graduate finances"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "New Graduate Students",
-          "synonyms": [
-            "New grad",
-            "New Grad student"
-          ]
-        },
-        {
-          "type": "synonyms",
           "value": "Graduate Academic Calendar",
           "synonyms": [
             "Grad Academic Calendar"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Thesis",
-          "synonyms": [
-            "dissertation"
           ]
         }
       ],
@@ -715,8 +715,12 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Getting Help",
-          "synonyms": []
+          "value": "Services",
+          "synonyms": [
+            "service",
+            "It service",
+            "It services"
+          ]
         },
         {
           "type": "synonyms",
@@ -728,11 +732,16 @@
         },
         {
           "type": "synonyms",
-          "value": "Services",
+          "value": "Getting Help",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Resources",
           "synonyms": [
-            "service",
-            "It service",
-            "It services"
+            "resource",
+            "IT resources",
+            "It resource"
           ]
         },
         {
@@ -746,17 +755,11 @@
           "type": "synonyms",
           "value": "FAQ",
           "synonyms": [
+            "Faq's",
             "faqs",
-            "Faq's"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Resources",
-          "synonyms": [
-            "resource",
-            "IT resources",
-            "It resource"
+            "IT FAQs",
+            "IT FAQ",
+            "IT FAQ's"
           ]
         }
       ],
@@ -765,11 +768,6 @@
     {
       "entity": "partners_tab",
       "values": [
-        {
-          "type": "synonyms",
-          "value": "Resources and Services",
-          "synonyms": []
-        },
         {
           "type": "synonyms",
           "value": "partnership",
@@ -781,11 +779,8 @@
         },
         {
           "type": "synonyms",
-          "value": "contact info",
-          "synonyms": [
-            "contact",
-            "contact information"
-          ]
+          "value": "Resources and Services",
+          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -793,6 +788,14 @@
           "synonyms": [
             "FAQ",
             "FAQ's"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "contact info",
+          "synonyms": [
+            "contact",
+            "contact information"
           ]
         },
         {
@@ -830,6 +833,19 @@
       "values": [
         {
           "type": "synonyms",
+          "value": "Learning and Development",
+          "synonyms": [
+            "Learning",
+            "Development"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Healthy Workplace",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
           "value": "Working at the University",
           "synonyms": []
         },
@@ -848,19 +864,6 @@
         },
         {
           "type": "synonyms",
-          "value": "Learning and Development",
-          "synonyms": [
-            "Learning",
-            "Development"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Healthy Workplace",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
           "value": "Leader Support",
           "synonyms": []
         }
@@ -869,6 +872,11 @@
     {
       "entity": "Finance_Tabs",
       "values": [
+        {
+          "type": "synonyms",
+          "value": "Financial Statements",
+          "synonyms": []
+        },
         {
           "type": "synonyms",
           "value": "Finance Contact",
@@ -884,11 +892,6 @@
         },
         {
           "type": "synonyms",
-          "value": "Financial Statements",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
           "value": "Chart of Accountants",
           "synonyms": []
         }
@@ -900,10 +903,8 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Facilities",
-          "synonyms": [
-            "amenities"
-          ]
+          "value": "Housekeeping services",
+          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -912,8 +913,10 @@
         },
         {
           "type": "synonyms",
-          "value": "Housekeeping services",
-          "synonyms": []
+          "value": "Facilities",
+          "synonyms": [
+            "amenities"
+          ]
         }
       ],
       "fuzzy_match": true
@@ -923,11 +926,8 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Expert Center",
-          "synonyms": [
-            "Experts",
-            "Research Experts"
-          ]
+          "value": "Research Chairs",
+          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -943,11 +943,6 @@
           "synonyms": [
             "Research events"
           ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Research Chairs",
-          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -980,6 +975,14 @@
           "synonyms": [
             "Research Contacts"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Expert Center",
+          "synonyms": [
+            "Experts",
+            "Research Experts"
+          ]
         }
       ],
       "fuzzy_match": true
@@ -987,6 +990,13 @@
     {
       "entity": "communications_marketing",
       "values": [
+        {
+          "type": "synonyms",
+          "value": "Web Development",
+          "synonyms": [
+            "web design"
+          ]
+        },
         {
           "type": "synonyms",
           "value": "Project Management",
@@ -1002,6 +1012,21 @@
             "media enquiries",
             "communications media"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Social Media",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Production Services",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Materials",
+          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -1057,28 +1082,6 @@
             "digital content",
             "multimedia"
           ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Production Services",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Marketing Materials",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Web Development",
-          "synonyms": [
-            "web design"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Social Media",
-          "synonyms": []
         }
       ],
       "fuzzy_match": true
@@ -1113,10 +1116,19 @@
         },
         {
           "type": "synonyms",
-          "value": "Contact information",
+          "value": "Doctoral",
           "synonyms": [
-            "Contact",
-            "contact info"
+            "phd",
+            "doctorate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "student awards and funding",
+          "synonyms": [
+            "graduate research",
+            "graduate funding",
+            "graduate awards"
           ]
         },
         {
@@ -1139,6 +1151,13 @@
         },
         {
           "type": "synonyms",
+          "value": "Masters",
+          "synonyms": [
+            "master"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "International Applicants",
           "synonyms": [
             "International Graduate",
@@ -1147,26 +1166,10 @@
         },
         {
           "type": "synonyms",
-          "value": "Masters",
+          "value": "Contact information",
           "synonyms": [
-            "master"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Doctoral",
-          "synonyms": [
-            "phd",
-            "doctorate"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "student awards and funding",
-          "synonyms": [
-            "graduate research",
-            "graduate funding",
-            "graduate awards"
+            "Contact",
+            "contact info"
           ]
         }
       ],
@@ -1238,17 +1241,17 @@
         },
         {
           "type": "synonyms",
+          "value": "Partner",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
           "value": "Giver",
           "synonyms": []
         },
         {
           "type": "synonyms",
           "value": "Alumni",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Partner",
           "synonyms": []
         }
       ],
@@ -1257,6 +1260,11 @@
     {
       "entity": "research_partners",
       "values": [
+        {
+          "type": "synonyms",
+          "value": "Current partnerships",
+          "synonyms": []
+        },
         {
           "type": "synonyms",
           "value": "Research partners",
@@ -1271,7 +1279,7 @@
         },
         {
           "type": "synonyms",
-          "value": "Collaborate with UOIT",
+          "value": "Indsutry Solution for license",
           "synonyms": []
         },
         {
@@ -1281,12 +1289,7 @@
         },
         {
           "type": "synonyms",
-          "value": "Indsutry Solution for license",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Current partnerships",
+          "value": "Collaborate with UOIT",
           "synonyms": []
         }
       ],
@@ -1297,18 +1300,18 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Commuincations and Marketing",
-          "synonyms": [
-            "Communications",
-            "Marketing"
-          ]
-        },
-        {
-          "type": "synonyms",
           "value": "Facilities and Ancillary",
           "synonyms": [
             "Facilities",
             "Ancillary"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Commuincations and Marketing",
+          "synonyms": [
+            "Communications",
+            "Marketing"
           ]
         },
         {
@@ -1341,6 +1344,21 @@
       "values": [
         {
           "type": "synonyms",
+          "value": "Records and scheduling",
+          "synonyms": [
+            "Records",
+            "Scheduling"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Academic Integrity",
+          "synonyms": [
+            "student conduct"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "Academic Advising",
           "synonyms": [
             "Advising",
@@ -1356,25 +1374,10 @@
         },
         {
           "type": "synonyms",
-          "value": "Records and scheduling",
+          "value": "Important Dates and deadlines",
           "synonyms": [
-            "Records",
-            "Scheduling"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Policies and Procedures",
-          "synonyms": [
-            "Undergrad Policies",
-            "Undergrad Procedures"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Office of the Registrar",
-          "synonyms": [
-            "Registrars office"
+            "Important Dates",
+            "Important Deadlines"
           ]
         },
         {
@@ -1386,17 +1389,17 @@
         },
         {
           "type": "synonyms",
-          "value": "Important Dates and deadlines",
+          "value": "Office of the Registrar",
           "synonyms": [
-            "Important Dates",
-            "Important Deadlines"
+            "Registrars office"
           ]
         },
         {
           "type": "synonyms",
-          "value": "Academic Integrity",
+          "value": "Policies and Procedures",
           "synonyms": [
-            "student conduct"
+            "Undergrad Policies",
+            "Undergrad Procedures"
           ]
         }
       ],
@@ -1407,15 +1410,21 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Viewbook",
+          "value": "Tours and Events",
+          "synonyms": [
+            "Tours",
+            "Events"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "International",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Faculties",
-          "synonyms": [
-            "disciplines"
-          ]
+          "value": "Admissions",
+          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -1427,21 +1436,15 @@
         },
         {
           "type": "synonyms",
-          "value": "Admissions",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "International",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Tours and Events",
+          "value": "Faculties",
           "synonyms": [
-            "Tours",
-            "Events"
+            "disciplines"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Viewbook",
+          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -1568,7 +1571,7 @@
                 "label": "FAQ's",
                 "value": {
                   "input": {
-                    "text": "FAQ's"
+                    "text": "IT FAQs"
                   }
                 }
               },

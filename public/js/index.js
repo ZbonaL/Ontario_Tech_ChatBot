@@ -1,9 +1,12 @@
+
+let chat_bttn = document.getElementsByClassName("chatbox_bttn")
+let chat_cntnr = document.getElementsByClassName("chat-column")
+let innerMessage = document.getElementsByClassName("message-inner")
+let options_list = document.getElementsByClassName("options-list")
+let scrolling_chat = document.getElementById("scrollingChat")
+let para = document.getElementsByTagName('p')
+
 window.onload = function(){
-  
-  let chat_bttn = document.getElementsByClassName("chatbox_bttn")
-  let chat_cntnr = document.getElementsByClassName("chat-column")
-  let userInput = document.getElementsByClassName("user_input")
-  let messages = document.getElementsByClassName("messages")
 
   // this is used to open and close chat box
   Array.from(chat_bttn).forEach(function(element) {
@@ -22,40 +25,44 @@ window.onload = function(){
           e.style.display = 'flex'
           // console.log("false")
         }
-      });
-      
-    });
-  });
-
-  // // handle user input 
-  // Array.from(userInput).forEach(function(element){
-
-  //   // clears the chat box on page refresh
-  //   element.value = ""
-
-  //   // check for enter key press
-  //   element.addEventListener('keydown', function(e){
-      
-  //     if(e.keyCode === 13){
-  //       // console.log(element.value)
-
-  //       // create a chat box to store user input
-  //       let message_box = document.createElement('p');
-
-  //       // holds user input
-  //       let textNode = document.createTextNode(element.value)
-  //       // append userinput to message box
-  //       message_box.appendChild(textNode)
         
-  //       // append messagebox to messages div
-  //       Array.from(messages).forEach(function (element){
-  //         element.appendChild(message_box)
+
+        
+        Array.from(options_list).forEach(function(element){
+          element.addEventListener('click', function(){
+            Array.from(chat_cntnr).forEach(function(element){
+              element.addEventListener('change', function(){
+                console.log(element.children)
+
+              })
+            })
+
+          })
+        })
+         
+
+      });// end of chat container lop
+    });// end of  button listener
+  });// end of button class loop
+
+  // Array.from(chat_cntnr).forEach(function(element){
+  //   element.addEventListener('change', function(){
+  //     if(element.classList.contains(innerMessage)){
+  //       console.log("true1");
+  //       Array.from(innerMessage).forEach(function(element){
+  //         if(element.classList.contains(para)){
+  //           console.log("true2");
+  //         }else{
+  //           console.log("false2");
+  //         }
   //       })
-  //       // clear userinput box
-  //       element.value = ""
+  //     }else{
+  //       console.log("false1");
   //     }
   //   })
   // })
 
 }
+
+
 
