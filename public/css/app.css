@@ -188,7 +188,7 @@ html{
   display: inline-block;
 }
 
-.chatbox_bttn {
+#chatbox_bttn {
   position: relative;
   bottom: -33em;
   right: -18rem;
@@ -200,7 +200,7 @@ html{
   filter: drop-shadow(0 0 2rem black);
 }
 
-.chatbox_bttn img {
+#chatbox_bttn img {
   position: relative;
   margin: auto;
   padding: 0.5em;
