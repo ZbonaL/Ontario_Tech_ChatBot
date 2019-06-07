@@ -86,14 +86,14 @@ let ConversationPanel = (function () {
       /**
        * Some extremely obnoxious logging
        */
-      console.groupCollapsed(`New message from ${typeValue}:`);
-      console.group('HTTP response payload:')
-      console.log(newPayload);
-      console.groupEnd();
-      console.group('Rendered responses:')
-      console.log(responses);
-      console.groupEnd();
-      console.groupEnd();
+      // console.groupCollapsed(`New message from ${typeValue}:`);
+      // console.group('HTTP response payload:')
+      // console.log(newPayload);
+      // console.groupEnd();
+      // console.group('Rendered responses:')
+      // console.log(responses);
+      // console.groupEnd();
+      // console.groupEnd();
     }
   }
 
