@@ -29,6 +29,25 @@ let Common = (function () {
 
     // Fill the "content" of the element
     if (domJson.text) {
+
+      let regexExp = /https?:\/\/?[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/gi
+      let regexExp2 = /https?:\/\/?[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?#[a-z0-9]{1,22}/gi
+
+      let link;
+
+      if(domJson.text.match(regexExp)){
+        link  = domJson.text.match(regexExp)
+      }else if(domJson.text.match(regexExp2)){
+        link  = domJson.text.match(regexExp2)
+        console.log(link);
+      }
+
+      if(link && link.length){
+        link.forEach(function(link_text){
+          domJson.text = domJson.text.replace(link_text, '<a href="' + link_text+ '">' + "here" + '</a>')
+        })
+      }
+
       element.innerHTML = domJson.text;
     } else if (domJson.html) {
       element.insertAdjacentHTML('beforeend', domJson.html);

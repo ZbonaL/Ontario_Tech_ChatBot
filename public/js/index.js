@@ -19,46 +19,6 @@ window.onload = function(){
       }
     });
 
-    let chat_input = document.getElementById("textInput")
-    chat_input.addEventListener('keypress', function(event){
-      if(event.keyCode === 13){
-        setTimeout(() =>{
-
-          let message_data = document.querySelectorAll(".message-inner p");
-
-          message_data.forEach(function(element){
-            let message_html = element.innerHTML
-            let regexExp = /https?:\/\/?[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/gi
-            
-            let link  = message_html.match(regexExp)
-            console.log(link)
-
-            if(link && link.length){
-              link.forEach(function(link_text){
-                message_html = message_html.replace(link_text, '<a href="' + link_text+ '">' + "here" + '</a>')
-              })
-
-              element.innerHTML = message_html
-            }
-
-            console.log(message_html);
-            
-
-
-            // if(link){
-
-            //   console.log(message_html);
-              
-
-            // }else{
-            //   console.log("noting")
-            // }
-          })
-          // console.log(message_data.item(message_data.length-1).textContent);
-        }, 300) 
-      }
-
-    })
   }
 }// end of window onload
 
