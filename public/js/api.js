@@ -1,13 +1,13 @@
 // The Api module is designed to handle all interactions with the server
 
-var Api = (function() {
-  var requestPayload;
-  var responsePayload;
-  var messageEndpoint = '/api/message';
+let Api = (function() {
+  let requestPayload;
+  let responsePayload;
+  let messageEndpoint = '/api/message';
 
-  var sessionEndpoint = '/api/session';
+  let sessionEndpoint = '/api/session';
 
-  var sessionId = null;
+  let sessionId = null;
 
   // Publicly accessible methods defined
   return {
@@ -33,12 +33,12 @@ var Api = (function() {
   };
 
   function getSessionId(callback) {
-    var http = new XMLHttpRequest();
+    let http = new XMLHttpRequest();
     http.open('GET', sessionEndpoint, true);
     http.setRequestHeader('Content-type', 'application/json');
     http.onreadystatechange = function () {
       if (http.readyState === XMLHttpRequest.DONE) {
-        var res = JSON.parse(http.responseText);
+        let res = JSON.parse(http.responseText);
         sessionId = res.session_id;
         callback();
       }
@@ -49,7 +49,7 @@ var Api = (function() {
   // Send a message request to the server
   function sendRequest(text, context) {
     // Build request payload
-    var payloadToWatson = {
+    let payloadToWatson = {
       session_id: sessionId
     };
 
@@ -63,7 +63,7 @@ var Api = (function() {
     }
 
     // Built http request
-    var http = new XMLHttpRequest();
+    let http = new XMLHttpRequest();
     http.open('POST', messageEndpoint, true);
     http.setRequestHeader('Content-type', 'application/json');
     http.onreadystatechange = function() {
@@ -83,7 +83,7 @@ var Api = (function() {
       }
     };
 
-    var params = JSON.stringify(payloadToWatson);
+    let params = JSON.stringify(payloadToWatson);
     // Stored in variable (publicly visible through Api.getRequestPayload)
     // to be used throughout the application
     if (Object.getOwnPropertyNames(payloadToWatson).length !== 0) {

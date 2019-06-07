@@ -3,8 +3,8 @@
 /* eslint no-unused-vars: "off" */
 /* global Api: true, Common: true*/
 
-var ConversationPanel = (function () {
-  var settings = {
+let ConversationPanel = (function () {
+  let settings = {
     selectors: {
       chatBox: '#scrollingChat',
       fromUser: '.from-user',
@@ -35,16 +35,18 @@ var ConversationPanel = (function () {
   // Set up callbacks on payload setters in Api module
   // This causes the displayMessage function to be called when messages are sent / received
   function chatUpdateSetup() {
-    var currentRequestPayloadSetter = Api.setRequestPayload;
+    let currentRequestPayloadSetter = Api.setRequestPayload;
     Api.setRequestPayload = function (newPayloadStr) {
       currentRequestPayloadSetter.call(Api, newPayloadStr);
-      displayMessage(JSON.parse(newPayloadStr), settings.authorTypes.user);
+      displayMessage(JSON.parse(newPayloadStr), settings.authorTypes.user); 
     };
 
-    var currentResponsePayloadSetter = Api.setResponsePayload;
+    let currentResponsePayloadSetter = Api.setResponsePayload;
     Api.setResponsePayload = function (newPayloadStr) {
       currentResponsePayloadSetter.call(Api, newPayloadStr);
       displayMessage(JSON.parse(newPayloadStr), settings.authorTypes.watson);
+      // console.log(JSON.parse(newPayloadStr));
+
     };
 
     Api.setErrorPayload = function (newPayload) {
@@ -57,8 +59,7 @@ var ConversationPanel = (function () {
   // is used to determine what the width of the input text should be.
   // This value is then used to set the new width of the visible input box.
   function setupInputBox() {
-    var input = document.getElementById('textInput');
-    input = ''
+    let input = document.getElementById('textInput');
 
     // Trigger the input event once to set up the input box and dummy element
     Common.fireEvent(input, 'input');
@@ -66,13 +67,13 @@ var ConversationPanel = (function () {
 
   // Display a user or Watson message that has just been sent/received
   function displayMessage(newPayload, typeValue) {
-    var isUser = isUserMessage(typeValue);
-    //var textExists = newPayload.generic;
+    let isUser = isUserMessage(typeValue);
+    //let textExists = newPayload.generic;
     if ((newPayload.output && newPayload.output.generic) ||  newPayload.input){
       // Create new message generic elements
-      var responses = buildMessageDomElements(newPayload, isUser);
-      var chatBoxElement = document.querySelector(settings.selectors.chatBox);
-      var previousLatest = chatBoxElement.querySelectorAll((isUser ? settings.selectors.fromUser : settings.selectors.fromWatson) +
+      let responses = buildMessageDomElements(newPayload, isUser);
+      let chatBoxElement = document.querySelector(settings.selectors.chatBox);
+      let previousLatest = chatBoxElement.querySelectorAll((isUser ? settings.selectors.fromUser : settings.selectors.fromWatson) +
         settings.selectors.latest);
       // Previous "latest" message is no longer the most recent
       if (previousLatest) {
@@ -87,9 +88,9 @@ var ConversationPanel = (function () {
   // Recurisive function to add responses to the chat area
   function setResponse(responses, isUser, chatBoxElement, index, isTop) {
     if (index < responses.length) {
-      var res = responses[index];
+      let res = responses[index];
       if (res.type !== 'pause') {
-        var currentDiv = getDivObject(res, isUser, isTop);
+        let currentDiv = getDivObject(res, isUser, isTop);
         chatBoxElement.appendChild(currentDiv);
         // Class to start fade in animation
         currentDiv.classList.add('load');
@@ -99,23 +100,14 @@ var ConversationPanel = (function () {
           scrollToChatBottom();
         }, 1000);
         setResponse(responses, isUser, chatBoxElement, index + 1, false);
-      } else {
-        var userTypringField = document.getElementById('user-typing-field');
-        if (res.typing) {
-          userTypringField.innerHTML = 'Watson Assistant Typing...';
-        }
-        setTimeout(function () {
-          userTypringField.innerHTML = '';
-          setResponse(responses, isUser, chatBoxElement, index + 1, isTop);
-        }, res.time);
-      }
+      } 
     }
   }
 
   // Constructs new DOM element from a message
   function getDivObject(res, isUser, isTop) {
-    var classes = [(isUser ? 'from-user' : 'from-watson'), 'latest', (isTop ? 'top' : 'sub')];
-    var messageJson = {
+    let classes = [(isUser ? 'from-user' : 'from-watson'), 'latest', (isTop ? 'top' : 'sub')];
+    let messageJson = {
       // <div class='segments'>
       'tagName': 'div',
       'classNames': ['segments'],
@@ -151,8 +143,8 @@ var ConversationPanel = (function () {
   }
 
   function getOptions(optionsList, preference) {
-    var list = '';
-    var i = 0;
+    let list = '';
+    let i = 0;
     if (optionsList !== null) {
       if (preference === 'text') {
         list = '<ul>';
@@ -167,7 +159,7 @@ var ConversationPanel = (function () {
         list = '<br>';
         for (i = 0; i < optionsList.length; i++) {
           if (optionsList[i].value) {
-            var item = '<div class="options-button" onclick="ConversationPanel.sendMessage(\'' +
+            let item = '<div class="options-button" onclick="ConversationPanel.sendMessage(\'' +
               optionsList[i].value.input.text + '\');" >' + optionsList[i].label + '</div>';
             list += item;
           }
@@ -178,7 +170,7 @@ var ConversationPanel = (function () {
   }
 
   function getResponse(responses, gen) {
-    var title = '', description = '';
+    let title = '', description = '';
     if (gen.hasOwnProperty('title')) {
       title = gen.title;
     }
@@ -186,7 +178,7 @@ var ConversationPanel = (function () {
       description = '<div>' + gen.description + '</div>';
     }
     if (gen.response_type === 'image') {
-      var img = '<div><img src="' + gen.source + '" width="300"></div>';
+      let img = '<div><img src="' + gen.source + '" width="300"></div>';
       responses.push({
         type: gen.response_type,
         innerhtml: title + description + img
@@ -203,12 +195,12 @@ var ConversationPanel = (function () {
         typing: gen.typing
       });
     } else if (gen.response_type === 'option') {
-      var preference = 'text';
+      let preference = 'text';
       if (gen.hasOwnProperty('preference')) {
         preference = gen.preference;
       }
 
-      var list = getOptions(gen.options, preference);
+      let list = getOptions(gen.options, preference);
       responses.push({
         type: gen.response_type,
         innerhtml: title + description + list
@@ -218,24 +210,24 @@ var ConversationPanel = (function () {
 
   // Constructs new generic elements from a message payload
   function buildMessageDomElements(newPayload, isUser) {
-    var textArray = isUser ? newPayload.input.text : newPayload.output.text;
+    let textArray = isUser ? newPayload.input.text : newPayload.output.text;
     if (Object.prototype.toString.call(textArray) !== '[object Array]') {
       textArray = [textArray];
     }
 
-    var responses = [];
+    let responses = [];
 
     if (newPayload.hasOwnProperty('output')) {
       if (newPayload.output.hasOwnProperty('generic')) {
 
-        var generic = newPayload.output.generic;
+        let generic = newPayload.output.generic;
 
         generic.forEach(function (gen) {
           getResponse(responses, gen);
         });
       }
     } else if (newPayload.hasOwnProperty('input')) {
-      var input = '';
+      let input = '';
       textArray.forEach(function (msg) {
         input += msg + ' ';
       });
@@ -256,14 +248,14 @@ var ConversationPanel = (function () {
 
   // Scroll to the bottom of the chat window
   function scrollToChatBottom() {
-    var scrollingChat = document.querySelector('#scrollingChat');
+    let scrollingChat = document.querySelector('#scrollingChat');
     scrollingChat.scrollTop = scrollingChat.scrollHeight;
   }
 
   function sendMessage(text) {
     // Retrieve the context from the previous server response
-    var context;
-    var latestResponse = Api.getResponsePayload();
+    let context;
+    let latestResponse = Api.getResponsePayload();
     if (latestResponse) {
       context = latestResponse.context;
     }
