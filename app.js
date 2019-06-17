@@ -23,7 +23,7 @@ let AssistantV2 = require('watson-developer-cloud/assistant/v2'); // watson sdk
 let app = express();
 
 // Bootstrap application settings
-app.use(express.static('./public')); // load UI from public folder
+app.use(express.static('./src')); // load UI from public folder
 app.use(bodyParser.json());
 
 // Create the service wrapper

@@ -5,24 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- <link rel="shortcut icon" href="favicon.png" type="image/png"> -->
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="app.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
 
     <div class="background">
-        <img src="img/background.png" alt="" class="background">
+        <img src="assets/background.png" alt="" class="background">
     </div>
 
     <button id="chatbox_bttn">
-        <img src="img/OntarioTechUniversity_Symbol_Colour_RGB_300ppi.png" class="chatbox_logo">
+        <img src="assets/OntarioTechUniversity_Symbol_Colour_RGB_300ppi.png" class="chatbox_logo">
     </button>
 
     <div id="chat-column-holder" class="responsive-column content-column">
       <div id="chat-column" class="chat-column">
         <div id="chat-column-header">
-          <img src="img/OntarioTechUniversity_Symbol_Colour_RGB_300ppi.png" id="header-logo">
+          <img src="assets/OntarioTechUniversity_Symbol_Colour_RGB_300ppi.png" id="header-logo">
           <p id="chat-header-message"> Ontario Tech Support</p>
         </div>
         <div id="scrollingChat"></div>
@@ -35,12 +35,11 @@
     </div>
     
 
-  <script src="js/common.js"></script>
-  <script src="js/api.js"></script>
-  <script src="js/conversation.js"></script>
-  
-  <script src="js/global.js"></script>
-  <script src="js/index.js"></script>
+  <script src="app/common.js"></script>
+  <script src="app/api.js"></script>
+  <script src="app/conversation.js"></script>
+  <script src="app/global.js"></script>
+  <script src="app/button-handler.js"></script>
   <script type="text/javascript" src="https://cdn.rawgit.com/watson-developer-cloud/watson-developer-cloud.github.io/master/analytics.js"></script>
 </body>
 </html>

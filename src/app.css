@@ -29,7 +29,7 @@ div {
   flex-direction: column;
   
   height: 90%;
-  padding: 0.9375rem 0 0.625rem 0;
+  padding: 0.05rem 0 0.625rem 0;
   margin: auto;
   text-align: left;
   max-width: 25rem;
@@ -118,7 +118,6 @@ div {
 }
 
 #textInput {
-  border: solid blue 1px;
   outline: none;
   background: transparent;
   font-size: 1rem;
@@ -130,7 +129,9 @@ div {
   max-width: 97%;
   padding-left: 0.125rem;
   margin-bottom: 0.375rem;
-  font-family: Helvetica Neue for IBM, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-top: 0.375rem;
+  width: 100rem;
+  text-align: center;
 
 }
 
@@ -214,7 +215,7 @@ html{
 
 #chat-column-header{
   border-bottom: black solid 2px;
-  background: #5B6770;
+  background: #A7A8AA;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
