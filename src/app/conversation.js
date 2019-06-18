@@ -278,3 +278,5 @@ export const ConversationPanel = (function () {
     }
   }
 }());
+
+window.ConversationPanel = ConversationPanel;

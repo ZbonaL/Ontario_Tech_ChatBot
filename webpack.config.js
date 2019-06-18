@@ -7,7 +7,10 @@ module.exports = {
   entry: './src/app/global.js',
 
   devServer: {
-     contentBase: './dist'
+     contentBase: './dist',
+     proxy: {
+      '/api': 'http://localhost:3000'
+    }
   },
   module:{
     rules: [
@@ -32,6 +35,14 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+        options: {
+          presets: ['@babel/preset-env']
+        }
       }
     ]
   },
