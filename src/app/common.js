@@ -1,8 +1,7 @@
 // The Common module is designed as an auxiliary module
 // to hold functions that are used in multiple other modules
 /* eslint no-unused-vars: "off" */
-
-let Common = (function () {
+export const Common = (function () {
   // Publicly accessible methods defined
   return {
     buildDomElement: buildDomElementFromJson,
