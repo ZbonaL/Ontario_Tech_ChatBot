@@ -3,7 +3,10 @@
 /* eslint no-unused-vars: "off" */
 /* global Api: true, Common: true*/
 
-let ConversationPanel = (function () {
+import {Common} from "./common"
+import {Api} from "./api"
+
+export const ConversationPanel = (function () {
   let settings = {
     selectors: {
       chatBox: '#scrollingChat',
@@ -82,18 +85,6 @@ let ConversationPanel = (function () {
         });
       }
       setResponse(responses, isUser, chatBoxElement, 0, true);
-
-      /**
-       * Some extremely obnoxious logging
-       */
-      // console.groupCollapsed(`New message from ${typeValue}:`);
-      // console.group('HTTP response payload:')
-      // console.log(newPayload);
-      // console.groupEnd();
-      // console.group('Rendered responses:')
-      // console.log(responses);
-      // console.groupEnd();
-      // console.groupEnd();
     }
   }
 
@@ -287,3 +278,5 @@ let ConversationPanel = (function () {
     }
   }
 }());
+
+window.ConversationPanel = ConversationPanel;

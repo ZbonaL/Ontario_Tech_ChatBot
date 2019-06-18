@@ -1,6 +1,6 @@
 // The Api module is designed to handle all interactions with the server
 
-let Api = (function() {
+export const Api = (function() {
   let requestPayload;
   let responsePayload;
   let messageEndpoint = '/api/message';
