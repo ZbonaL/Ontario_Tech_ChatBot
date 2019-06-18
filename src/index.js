@@ -16,6 +16,9 @@
 
 'use strict';
 
+require('dotenv').config({silent: true});
+
+
 let express = require('express'); // app server
 let bodyParser = require('body-parser'); // parser for post requests
 let AssistantV2 = require('watson-developer-cloud/assistant/v2'); // watson sdk
@@ -100,4 +103,13 @@ app.get('/api/session', function (req, res) {
   });
 });
 
-module.exports = app;
+
+
+var port = process.env.PORT || 3000;
+
+app.listen(port, function() {
+  // eslint-disable-next-line
+  console.log('Server running on port: %d', port);
+});
+
+// module.exports = app;

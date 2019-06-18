@@ -1,10 +1,10 @@
 {
-  "name": "@ibm-watson/assistant-simple",
-  "description": "A simple Node.js based web app which shows how to use the Watson Assistant API to recognize user intents.",
-  "version": "0.1.1",
-  "main": "server.js",
+  "name": "Ontario_Tech_Chatbot",
+  "description": "",
+  "version": "1",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./src/index.js"
   },
   "license": "Apache-2.0",
   "dependencies": {
@@ -16,6 +16,7 @@
   "engineStrict": true,
   "devDependencies": {
     "webpack": "^4.34.0",
-    "webpack-cli": "^3.3.4"
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
   }
 }
