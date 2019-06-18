@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: './src/app/global.js',
-
+  devtool: 'eval-cheap-module-source-map', // << change to 'source-map' in production
   devServer: {
      contentBase: './dist',
      proxy: {
@@ -18,7 +18,6 @@ module.exports = {
   module: {
     rules: [{
         test: /\.js$/,
-        devtool: 'eval-cheap-module-source-map', // << change to 'source-map' in production
         exclude: /node_modules/,
         loader: 'babel-loader',
         options: {
@@ -62,14 +61,6 @@ module.exports = {
             }
           }
         ]
-      },
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: 'babel-loader',
-        options: {
-          presets: ['@babel/preset-env']
-        }
       }
     ]
   },
