@@ -12,14 +12,41 @@ module.exports = {
       '/api': 'http://localhost:3000'
     }
   },
-  module:{
-    rules: [
+  node: {
+    fs: 'empty' // surpresses errors re: the `fs` node module
+  },
+  module: {
+    rules: [{
+        test: /\.js$/,
+        devtool: 'eval-cheap-module-source-map', // << change to 'source-map' in production
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+        options: {
+          presets: ['@babel/preset-env']
+        }
+      },
       {
         test: /\.scss$/,
-        use: [
-          "style-loader", //3. Inject styles into DOM
-          "css-loader", //2. Turns css into commonjs
-          "sass-loader" //1. Turns sass into css
+        use: [{
+            loader: 'style-loader',
+            options: {
+              sourceMap: true
+            }
+          }, //3. Inject styles into DOM
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: true
+            }
+          }, //2. Turns css into commonjs
+          {
+            loader: 'sass-loader',
+            options: {
+              outputStyle: 'expanded',
+              sourceMap: true,
+              sourceMapContents: true
+            }
+          } //1. Turns sass into css
         ]
       },
       {
