@@ -24,7 +24,8 @@ export const ConversationPanel = (function () {
   return {
     init: init,
     inputKeyDown: inputKeyDown,
-    sendMessage: sendMessage
+    sendMessage: sendMessage,
+    clickEvent: clickEvent
   };
 
   // Initialize the module
@@ -267,14 +268,24 @@ export const ConversationPanel = (function () {
     Api.sendRequest(text, context);
   }
 
+  function sendchat(inputBox){
+    sendMessage(inputBox.value);
+      // Clear input box for further messages
+      inputBox.value = '';
+      Common.fireEvent(inputBox, 'input');
+  }
+
   // Handles the submission of input
   function inputKeyDown(event, inputBox) {
     // Submit on enter key, dis-allowing blank messages
     if (event.keyCode === 13 && inputBox.value) {
-      sendMessage(inputBox.value);
-      // Clear input box for further messages
-      inputBox.value = '';
-      Common.fireEvent(inputBox, 'input');
+      sendchat(inputBox)
+    }
+  }
+
+  function clickEvent(event, inputBox){
+    if(inputBox.value){
+      sendchat(inputBox)
     }
   }
 }());

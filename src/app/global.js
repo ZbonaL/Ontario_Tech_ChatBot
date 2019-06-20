@@ -9,9 +9,22 @@ import {ConversationPanel} from "./conversation"
   // Initialize all modules
   ConversationPanel.init();
 
+  
+
   window.onload = function(){
     let chat_bttn = document.getElementById("chatbox_bttn")
     let chat_cntnr = document.getElementById("chat-column")
+    let textInput = document.getElementById("textInput")
+    let answerBttn = document.getElementById("chat-button")
+
+    if(textInput){
+      textInput.addEventListener('keydown', function(event){
+        ConversationPanel.inputKeyDown(event, textInput)
+      })
+      answerBttn.addEventListener('click', function(){
+        ConversationPanel.clickEvent(event, textInput)
+      })
+    }
     
     if (chat_bttn) {
     // this is used to open and close chat box
