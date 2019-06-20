@@ -213,7 +213,13 @@ div {
     @include padder(0.125rem,0.125rem ,0 ,0);
     @include marginer(0.7rem,0.7rem ,0 ,0.375rem)
   }
+
+  #chat-button:active{
+    background: #5B6770;
+  }
 }
+
+
 
 .options-list {
   color: $listColour;
@@ -264,6 +270,8 @@ div {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
+
+  align-items: center;
   
   background: $mainColour;
   border-top-left-radius: 1rem;
@@ -277,13 +285,13 @@ div {
   font-size: 1.25rem;
 
   .chat-header-message{
-    @include marginer(1rem,1.5rem, 1rem ,1rem )
+    @include marginer(1rem,1.5rem, 1rem ,1rem)
   }
   
   .header-logo{
     width: 3rem;
     height: 3.5rem;
-    @include marginer(1rem,1.5rem, 0 ,1rem )
+    @include marginer(1rem,0.25rem, 0 ,0)
   }
 }
 
