@@ -35,8 +35,6 @@ div {
 }
 
 .responsive-column {
-  -webkit-flex: 1;
-  -ms-flex: 1;
   flex: 1;
   overflow: auto;
 }
@@ -98,7 +96,7 @@ div {
     }
 
     a{
-      color: #2ED64C;
+      color: #0077CA;
     }
   }
 
@@ -190,10 +188,12 @@ div {
   line-height: 1.3125rem;
   height: 2.5rem;
   max-width: 75%;
-  padding-left: 2.125rem;
+  padding-left: 200rem;
   @include padder(0.125rem,0.125rem ,0 ,0);
   margin: 0.375rem;
   width: 100rem;
+  border: none;
+  border: solid 1px #B9BBBE;
 }
 
 #chat-button{
@@ -203,7 +203,8 @@ div {
   height: 2.5rem;
   @include padder(0.125rem,0.125rem ,0 ,0);
   border-radius: 100rem;
-
+  border: none;
+  border: solid 1px #B9BBBE;
 }
 
 .options-list {
@@ -231,6 +232,9 @@ div {
   border-radius: 100em;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.208), 0 6px 6px rgba(0,0,0,0.23);
   
+  border: none;
+  border: solid 1px #B9BBBE;
+
   img {
     width: 60%;
   };
