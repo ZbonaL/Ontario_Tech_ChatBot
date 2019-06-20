@@ -69,6 +69,7 @@ export const Api = (function() {
     http.onreadystatechange = function() {
       if (http.readyState === XMLHttpRequest.DONE && http.status === 200 && http.responseText) {
         Api.setResponsePayload(http.responseText);
+        console.log(JSON.parse(http.responseText));
       } else if (http.readyState === XMLHttpRequest.DONE && http.status !== 200) {
         Api.setErrorPayload({
           'output': {

@@ -32,10 +32,17 @@ import {ConversationPanel} from "./conversation"
         if(chat_cntnr.style.display === 'flex'){
           // console.log("true")
           // disable the container
-          chat_cntnr.style.display = 'none'
+          chat_cntnr.classList.remove("zoom-in")
+          chat_cntnr.classList.add("zoom-out")
+          setTimeout( ()=>{
+            chat_cntnr.style.display = 'none'
+          }, 300)
         }else{
           // enable the container
+          chat_cntnr.classList.remove("zoom-out")
+          chat_cntnr.classList.add('zoom-in')
           chat_cntnr.style.display = 'flex'
+
           // console.log("false")
         }
       });

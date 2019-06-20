@@ -36,7 +36,7 @@ export const Common = (function () {
       
       if(link && link.length){
         link.forEach(function(link_text){
-          domJson.text = domJson.text.replace(link_text, '<a href="' + link_text+ '">' + "here" + '</a>')
+          domJson.text = domJson.text.replace(link_text, '<a href="' + link_text+ '">' + "Click me!" + '</a>')
         })
       }
 
