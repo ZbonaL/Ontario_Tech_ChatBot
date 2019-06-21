@@ -9,9 +9,8 @@ import {ConversationPanel} from "./conversation"
   // Initialize all modules
   ConversationPanel.init();
 
-  
-
   window.onload = function(){
+
     let chat_bttn = document.getElementById("chatbox_bttn")
     let chat_cntnr = document.getElementById("chat-column")
     let textInput = document.getElementById("textInput")
@@ -21,17 +20,25 @@ import {ConversationPanel} from "./conversation"
       textInput.addEventListener('keydown', function(event){
         ConversationPanel.inputKeyDown(event, textInput)
       })
+      textInput.addEventListener('change', function(){
+        if (textInput.value != ''){
+          answerBttn.disabled = false;
+          console.log("false");
+          
+        }else{
+          answerBttn.disabled = true;
+          console.log("true")
+        }
+      })
       answerBttn.addEventListener('click', function(){
         ConversationPanel.clickEvent(event, textInput)
       })
     }
-    
+
     if (chat_bttn) {
     // this is used to open and close chat box
       chat_bttn.addEventListener('click', function (){
         if(chat_cntnr.style.display === 'flex'){
-          // console.log("true")
-          // disable the container
           chat_cntnr.classList.remove("zoom-in")
           chat_cntnr.classList.add("zoom-out")
           setTimeout( ()=>{
@@ -42,12 +49,8 @@ import {ConversationPanel} from "./conversation"
           chat_cntnr.classList.remove("zoom-out")
           chat_cntnr.classList.add('zoom-in')
           chat_cntnr.style.display = 'flex'
-
-          // console.log("false")
         }
       });
-
     }
   }// end of window onload
 })();
-

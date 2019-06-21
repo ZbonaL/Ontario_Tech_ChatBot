@@ -227,6 +227,10 @@ div {
     width: 100rem;
     border: none;
     border: solid 1px #B9BBBE;
+
+    &:focus{
+      outline: none;
+    }
   }
 
   #chat-button{
@@ -239,7 +243,8 @@ div {
     @include marginer(0.7rem,0.7rem ,0 ,0.375rem);
 
     &:hover{
-      background: #E75D2A;
+      background: $mainOrange;
+      border: $mainOrange;
       path {
         fill: #fff
       }
@@ -247,6 +252,10 @@ div {
     
     &:active{
       background: #5B6770;
+    }
+
+    &:focus{
+      outline: none;
     }
   }
 }
@@ -283,6 +292,9 @@ div {
     width: 60%;
   };
   
+  &:focus{
+    outline: none;
+  }
 }
 
 #chatbox_bttn:hover{
