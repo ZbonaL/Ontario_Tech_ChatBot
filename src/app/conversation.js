@@ -6,6 +6,8 @@
 import {Common} from "./common"
 import {Api} from "./api"
 
+let answerBttn = document.getElementById("chat-button")
+
 export const ConversationPanel = (function () {
   let settings = {
     selectors: {
@@ -272,6 +274,7 @@ export const ConversationPanel = (function () {
     sendMessage(inputBox.value);
       // Clear input box for further messages
       inputBox.value = '';
+      answerBttn.disabled = true;
       Common.fireEvent(inputBox, 'input');
   }
 
