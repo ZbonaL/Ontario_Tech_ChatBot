@@ -242,16 +242,17 @@ div {
     @include padder(0.125rem,0.125rem ,0 ,0);
     @include marginer(0.7rem,0.7rem ,0 ,0.375rem);
 
-    &:hover{
-      background: $mainOrange;
-      border: $mainOrange;
-      path {
-        fill: #fff
+    &:not([disabled]){
+      &:hover{
+        background: $mainOrange;
+        border: $mainOrange;
+        path {
+          fill: #fff
+        }
       }
-    }
-    
-    &:active{
-      background: #5B6770;
+      &:active{
+        background: #5B6770;
+      }
     }
 
     &:focus{
