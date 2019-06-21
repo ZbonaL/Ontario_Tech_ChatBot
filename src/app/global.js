@@ -20,7 +20,7 @@ import {ConversationPanel} from "./conversation"
       textInput.addEventListener('keydown', function(event){
         ConversationPanel.inputKeyDown(event, textInput)
       })
-      textInput.addEventListener('change', function(){
+      textInput.addEventListener('keyup', function(){
         if (textInput.value != ''){
           answerBttn.disabled = false;
           console.log("false");
