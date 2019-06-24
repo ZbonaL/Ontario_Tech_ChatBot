@@ -15,6 +15,7 @@ import {ConversationPanel} from "./conversation"
     let chat_cntnr = document.getElementById("chat-column")
     let textInput = document.getElementById("textInput")
     let answerBttn = document.getElementById("chat-button")
+    let closeBttn = document.getElementById("close-chat")
 
     if(textInput){
       textInput.addEventListener('keydown', function(event){
@@ -39,18 +40,36 @@ import {ConversationPanel} from "./conversation"
     // this is used to open and close chat box
       chat_bttn.addEventListener('click', function (){
         if(chat_cntnr.style.display === 'flex'){
-          chat_cntnr.classList.remove("zoom-in")
-          chat_cntnr.classList.add("zoom-out")
-          setTimeout( ()=>{
-            chat_cntnr.style.display = 'none'
-          }, 300)
+          close_chat(chat_cntnr)
         }else{
           // enable the container
-          chat_cntnr.classList.remove("zoom-out")
-          chat_cntnr.classList.add('zoom-in')
-          chat_cntnr.style.display = 'flex'
+          enable_chat(chat_cntnr)
         }
       });
     }
+
+    if(closeBttn){
+      closeBttn.addEventListener('click', function(){
+        if(chat_cntnr.style.display === 'flex'){
+          close_chat(chat_cntnr)
+        }else{
+          enable_chat(chat_cntnr)
+        }
+      })
+    }
   }// end of window onload
+
+  function close_chat(element) {
+    element.classList.remove("zoom-in")
+    element.classList.add("zoom-out")
+    setTimeout(()=>{
+      element.style.display = 'none'
+    }, 300)
+  }
+
+  function enable_chat(element){
+    element.classList.remove("zoom-out")
+    element.classList.add('zoom-in')
+    element.style.display = 'flex'
+  }
 })();

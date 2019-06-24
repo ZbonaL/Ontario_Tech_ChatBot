@@ -1,3 +1,6 @@
+@import '~normalize.css';
+
+
 $mainOrange: #E75D2A;
 $font-heading: 'Ubuntu', sans-serif;
 $font-body: 'Franklin Gothic';
@@ -321,20 +324,34 @@ div {
   border-top-right-radius: 1rem;
   color: white;
   font-family: $font-heading;
-  height: 9%;
-
+  
   text-align: center;
 
   font-size: 1.25rem;
 
   .chat-header-message{
-    @include marginer(1rem,1.5rem, 1rem ,1rem)
+    @include marginer(1rem,2rem, 0 ,0)
   }
   
   .header-logo{
     width: 3rem;
     height: 3.5rem;
     @include marginer(1rem,0.25rem, 0 ,0)
+  }
+
+  #close-chat{
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1;
+    @include marginer(0,2.75rem, 0 ,0);
+
+    & > * {
+      vertical-align: middle;
+    }
+
   }
 }
 
