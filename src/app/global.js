@@ -17,6 +17,8 @@ import {ConversationPanel} from "./conversation"
     let answerBttn = document.getElementById("chat-button")
     let closeBttn = document.getElementById("close-chat")
 
+    textInput.value = ''
+
     if(textInput){
       textInput.addEventListener('keydown', function(event){
         ConversationPanel.inputKeyDown(event, textInput)
@@ -40,7 +42,7 @@ import {ConversationPanel} from "./conversation"
     // this is used to open and close chat box
       chat_bttn.addEventListener('click', function (){
         if(chat_cntnr.style.display === 'flex'){
-          close_chat(chat_cntnr)
+          close_chat(chat_cntnr,textInput)
         }else{
           // enable the container
           enable_chat(chat_cntnr)
@@ -51,7 +53,7 @@ import {ConversationPanel} from "./conversation"
     if(closeBttn){
       closeBttn.addEventListener('click', function(){
         if(chat_cntnr.style.display === 'flex'){
-          close_chat(chat_cntnr)
+          close_chat(chat_cntnr, textInput)
         }else{
           enable_chat(chat_cntnr)
         }
@@ -59,9 +61,10 @@ import {ConversationPanel} from "./conversation"
     }
   }// end of window onload
 
-  function close_chat(element) {
+  function close_chat(element, textBox) {
     element.classList.remove("zoom-in")
     element.classList.add("zoom-out")
+    textBox.value = ''
     setTimeout(()=>{
       element.style.display = 'none'
     }, 300)
