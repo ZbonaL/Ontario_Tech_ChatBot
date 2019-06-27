@@ -37,6 +37,7 @@ div {
   flex: 1;
   overflow: auto;
 }
+
 .chat-column {
   display: none;
   flex-direction: column;
@@ -138,14 +139,14 @@ div {
 
 .zoom-in{
   animation-name: zoom-in;
-  animation-duration: .25s; 
+  animation-duration: .2s; 
   animation-timing-function: ease-out; 
   animation-fill-mode: both;
 }
 
 .zoom-out{
   animation-name: zoom-out;
-  animation-duration: .25s; 
+  animation-duration: .2s; 
   animation-timing-function: ease-out; 
   animation-fill-mode: both;
 }
