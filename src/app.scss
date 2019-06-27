@@ -45,12 +45,8 @@ div {
     width: 80%;
     height: 80%;
   }
-
-  @media (max-height:500px){
-    height: 80%;
-  }
   
-  height: 90%;
+  height: calc(100% - 6rem);
   padding: 0.05rem 0 0.625rem 0;
   margin: auto;
   text-align: left;
