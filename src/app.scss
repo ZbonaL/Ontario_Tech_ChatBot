@@ -37,43 +37,102 @@ div {
   flex: 1;
   overflow: auto;
 }
+.chat-column {
+  display: none;
+  flex-direction: column;
 
-#chat-column-holder {
-  text-align: center;
-
-  .chat-column {
-    display: none;
-    flex-direction: column;
-    
-    height: 90%;
-    padding: 0.05rem 0 0.625rem 0;
-    margin: auto;
-    text-align: left;
-    max-width: 25rem;
-    min-width: 9.375rem;
-  
-    border-radius: 1.5rem;
-    
-    background: #fff;
-
-    transform: scale(1);
-    transform-origin: 100% 100%;
-  
-    position: fixed;
-    bottom: 3rem;
-    right: 3rem;
-
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.208), 0 6px 6px rgba(0,0,0,0.23);
-
-    #scrollingChat {
-      margin: 0.75rem;
-      overflow-y: auto;
-      overflow-x: hidden;
-      flex: 1;
-      font-size: 1.125rem;
-    }
-
+  @media (min-width: 300px) and (max-width:600px) {
+    width: 85%;
   }
+  
+  height: 90%;
+  padding: 0.05rem 0 0.625rem 0;
+  margin: auto;
+  text-align: left;
+  max-width: 25rem;
+  min-width: 4.375rem;
+
+  border-radius: 1.5rem;
+  
+  background: #fff;
+
+  transform: scale(1);
+  transform-origin: 100% 100%;
+
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.208), 0 6px 6px rgba(0,0,0,0.23);
+
+  .chat-column-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  
+    align-items: center;
+    
+    background: $mainColour;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+    font-family: $font-heading;
+    
+    text-align: center;
+  
+    font-size: 1.25rem;
+  
+    .chat-header-message{
+      @include marginer(1rem,2rem, 0 ,0);
+      
+        @media (min-width: 300px) and (max-width: 600px) {
+          @include marginer(1rem,1rem,0 ,0 )
+        }
+
+        @media (min-width:300px) and (max-width: 400px){
+          .chat-header-message{
+            font-size: 0.5em;
+          }
+        }
+    }
+    
+    .header-logo{
+      width: 3rem;
+      height: 3.5rem;
+      @include marginer(1rem,0.25rem, 0 ,0)
+    }
+  
+    #close-chat{
+      background: none;
+      border: none;
+      outline: none;
+      color: #fff;
+      font-size: 2rem;
+      line-height: 1;
+      @include marginer(0,2.75rem, 0 ,0);
+  
+      & > * {
+        vertical-align: middle;
+      }
+      
+      @media (min-width: 300px) and (max-width: 400px) {
+        @include marginer(0.75rem,0,0 ,0 )
+      }
+      @media (min-width: 400px) and (max-width: 500px) {
+        @include marginer(1rem,1.75rem,0 ,0 )
+      }
+    }
+  }
+
+  #scrollingChat {
+    margin: 0.75rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+    font-size: 1.125rem;
+  }
+
 }
 
 .zoom-in{
@@ -311,50 +370,7 @@ div {
   min-width: 100%;
 }
 
-.chat-column-header{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
 
-  align-items: center;
-  
-  background: $mainColour;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  color: white;
-  font-family: $font-heading;
-  
-  text-align: center;
-
-  font-size: 1.25rem;
-
-  .chat-header-message{
-    @include marginer(1rem,2rem, 0 ,0)
-  }
-  
-  .header-logo{
-    width: 3rem;
-    height: 3.5rem;
-    @include marginer(1rem,0.25rem, 0 ,0)
-  }
-
-  #close-chat{
-    background: none;
-    border: none;
-    outline: none;
-    color: #fff;
-    font-size: 2rem;
-    line-height: 1;
-    @include marginer(0,2.75rem, 0 ,0);
-
-    & > * {
-      vertical-align: middle;
-    }
-
-  }
+.visually-hidden{
+  display: none;
 }
-
-  .visually-hidden{
-    display: none;
-  }
