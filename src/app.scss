@@ -46,7 +46,12 @@ div {
     width: 80%;
     height: 80%;
   }
-  
+
+  @media (min-width: 300px) and (max-width:600px){
+    bottom: 3rem;
+    height: calc(80% - 1rem)
+  }
+
   height: calc(100% - 6rem);
   padding: 0.05rem 0 0.625rem 0;
   margin: auto;
