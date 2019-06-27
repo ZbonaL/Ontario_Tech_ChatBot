@@ -42,7 +42,12 @@ div {
   flex-direction: column;
 
   @media (min-width: 300px) and (max-width:600px) {
-    width: 85%;
+    width: 80%;
+    height: 80%;
+  }
+
+  @media (max-height:500px){
+    height: 80%;
   }
   
   height: 90%;
