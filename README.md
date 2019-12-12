@@ -24,3 +24,6 @@
   - webpack
   - webpack-cli
   - webpack-dev-server
+  
+## How to run:
+  Run this command in a NodeJS enviroment `node start`.
